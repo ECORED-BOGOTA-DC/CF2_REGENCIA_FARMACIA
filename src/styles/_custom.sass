@@ -1,19 +1,211 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+
+.cajon.color-secundario
+  background-color: #E4DDFA
+
+.fondo-esquina
+  background-image: url(../assets/curso/tema1/fondo-esquina.svg)
+  margin-inline: -3rem 
+  background-repeat: no-repeat
+  background-size: auto
+  background-position: 100% 0
+
+.fa-quote-left, .fa-quote-right 
+  font-size: 29px!important
+
+.bloque-texto-b.color-primario:before 
+  background-color: #E6F7FE
+
+.bloque-texto-b i:first-of-type 
+  margin-right: 15px
+  margin-left: -40px
+
+.centro-fondo--arriba
+  background-image: url(../assets/curso/tema1/fondo-centro.svg)
+  margin-inline: -3.3rem 
+  background-repeat: no-repeat
+  background-size: auto
+  background-position: top
+  
 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
 
-  100%
-    transform: translateY(0px)
+.custom-card
+    border: 3px solid #12263F
+    border-style: dashed
+    border-radius: 0
+
+.custom-img
+  width: 270px
+  position: relative
+  left: 50%
+  bottom: 20px
+
+.tabs-c__header 
+  margin-bottom: 0
+
+.tabs-c__content-item
+  border-inline: 1px solid #e8e8e8
+.tabs-c 
+    border-bottom: 1px solid #e8e8e8
+
+.tabs-c.color-secundario .tabs-c__tab--active
+  font-weight: bold
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  color: #fff
+  font-size: 20px
+
+.linea-tiempo-d__item__number 
+    font-size: 18px
+
+
+
+.round--number
+  width: 50px
+  height: 50px
+  background-color: white
+  border: 3px solid #12263F
+  border-radius: 999px
+  p 
+    font-size: 25px
+    font-weight: 800
+    text-align: center
+    padding-top: 3px
+
+.tarjeta.tarjeta--gris
+ // padding: 1.5rem
+  border-radius: 0
+
+
+.tarjeta.color-primario
+  background-color: #E6F7FE
+
+
+.tarjeta.color-secundario
+  background-color: #E4DDFA
+
+.bloque-texto-a.color-secundario 
+  background-color: #F6F6F6
+
+.anexo
+  //bottom: 20px
+  //left: 35%
+  //swidth: 450px
+  background-color: #f6f6f6
+
+.fa-atom
+  color: $color-acento-contenido
+
+//tarjeta con extremo color %////
+.tarjeta-avatar-b
+  img 
+    position: relative
+    width: 20%
+  position: relative 
+
+.tarjetar:before  //linea lateral derecha
+  content: ''
+  background-color:#732be5
+  width: 7px
+  height: 130px
+  display: block
+  position: absolute
+  right: -7px
+  top: 50% 
+  transform: translateY(-50%)
+///////END///////////
+
+///// Tarjeta Hover ////////////////////
+.tarjeta-cyan
+  background-color: #CDEDFC
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #00BCD4
+    .tarjetaTxt
+      border-top: 7px solid #00BCD4
+
+.tarjeta-purpura
+  //background-color: #E4DDFA
+  background: linear-gradient(180deg,#F5F5F5,#dff0f9)
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #7E5EE3
+    .tarjetaTxt
+      border-top: 7px solid #7E5EE3
+
+
+$tarjeta-dimension: 300px
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension
+  height: $tarjeta-dimension
+  border-radius: 0    
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      width: $tarjeta-dimension
+      height: $tarjeta-dimension
+      padding: 2rem
+    .tarjetaImg     
+    .tarjetaTxt
+      text-align: center
+
+
+  &:hover
+    .tarjetaContent
+      top: -($tarjeta-dimension)
+////FIN TARJETA HOVER //////////
+
+
+
+.tabs-b__tab
+  filter: opacity(0.5)
+.tabs-b__tab--active
+  filter: none
+
+//////////////////////////////TEMA 2///////////////////
+.fondo-custom
+  background-image: url(../assets/curso/tema2/fondo-top.svg)
+  margin-inline: -3.3rem 
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top
+
+//linea de pasos 
+
+.pasos-a.color-acento-contenido .pasos-a__circle 
+  background-color: #ffffff
+  border: 3px solid #732be5
+.pasos-a__circle 
+  width: 60px
+  height: 60px
+.pasos-a.color-acento-contenido .pasos-a__circle div 
+  color: #000
+
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea 
+  border-color: #000
+
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line 
+  border-top-color: #000
+
+.pasos-a.color-acento-contenido .pasos-a__numero::after 
+  border-left-color: #000000
+
+.bloque-texto-a:before
+  left: 60%
+
+@media screen and ( max-width: $bp-max-xs )
+  .fondo-esquina, .centro-fondo--arriba, .fondo-custom
+    margin-inline: -1.4rem 
+  .custom-img
+    left: 0
