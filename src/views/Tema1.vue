@@ -780,7 +780,7 @@
             h1.mb-4 Superintendencia Nacional de Salud
             p Organismo de carácter técnico, que cumple funciones de inspección, vigilancia y control en el Sistema General de Seguridad Social en Salud, con personería jurídica, autonomía administrativa y patrimonio independiente, adscrita al Ministerio de Salud.
         
-          .col-md-4
+          .col-md-3
             figure
               img.mx-auto(src='@/assets/curso/tema1/tema1-8/img1.svg', alt='Superintendencia Nacional de Salud')
       
@@ -790,7 +790,7 @@
             h1.mb-4 Entes territoriales / Entes de control
             p Las entidades territoriales en los departamentos, los distritos, los municipios y los territorios indígenas, son las secretarías de salud departamentales y municipales, dependencias internas que garantizan que cada uno de los procesos, políticas, metas y actividades se cumplan de acuerdo con lo preestablecido por el Ministerio de Salud y Protección Social, en cuanto a lineamientos y normativa, en todo el espacio geográfico de su competencia.
         
-          .col-md-4
+          .col-md-3
             figure
               img.mx-auto(src='@/assets/curso/tema1/tema1-8/img2.svg', alt='Entes territoriales / Entes de control')
       
@@ -800,7 +800,7 @@
             h1.mb-4 INVIMA
             p Instituto Nacional de Vigilancia de Medicamentos y Alimentos. Entidad de vigilancia y control de carácter técnico científico, que trabaja para la protección de la salud individual y colectiva de los colombianos, mediante la aplicación de las normas sanitarias asociadas al consumo y uso de alimentos, medicamentos, dispositivos médicos, productos cosméticos, Fitoterapéuticos y otros productos objeto de vigilancia sanitaria. El objetivo del INVIMA, es actuar como institución de referencia nacional, en materia sanitaria y ejecutar las políticas formuladas por el Ministerio de Salud y Protección Social en la inspección, vigilancia y control de calidad de los medicamentos, productos biológicos, alimentos, bebidas, cosméticos, dispositivos médicos. 
         
-          .col-md-4
+          .col-md-3
             figure
               img.mx-auto(src='@/assets/curso/tema1/tema1-8/img3.svg', alt='')
 
@@ -810,7 +810,7 @@
             h1.mb-4 Instituto Nacional de Salud
             p Instituto Científico y Técnico, con personería jurídica, autonomía administrativa y patrimonio propio, adscrito al Ministerio de Salud y Protección Social; su jurisdicción aplica a todo el territorio nacional. Su objetivo es el desarrollo y la gestión del conocimiento científico en salud y biomedicina, para contribuir a mejorar las condiciones de salud de las personas; realizar investigación científica básica y aplicada en salud y biomedicina; la promoción de la investigación científica, la innovación y la formulación de estudios, de acuerdo con las prioridades de salud pública, la vigilancia y seguridad sanitaria en la producción de insumos biológicos; y, actuar como laboratorio nacional de referencia y coordinador de las redes especiales, en el marco del Sistema General de Seguridad Social en Salud y del Sistema de Ciencia, Tecnología e Innovación. 
         
-          .col-md-4
+          .col-md-3
             figure
               img.mx-auto(src='@/assets/curso/tema1/tema1-8/img4.svg', alt='Instituto Nacional de Salud')
 
