@@ -438,7 +438,7 @@
           img(src='@/assets/curso/tema1/tema1-6/img1.svg', alt='imagen de ambiente', style='width:255px').mx-auto
       .col-lg-8.align-self-center
         p.mb-4 Se efectúa con:
-        ul.lista-ul.mb-5.ms-4
+        ul.lista-ul.mb-5.ms-4.fa-ul2
           li 
             i.fas.fa-atom
             | El registro en el Sistema de Afiliación Transaccional.
@@ -451,15 +451,15 @@
     .row.justify-content-center.mb-4
       .col-lg-9
         p.mb-4 Tenga en cuenta que la afiliación al Sistema General de Seguridad Social en Salud, implica:
-        ul.lista-ul.mb-4.ms-5
+        ul.lista-ul.mb-4.ms-5.fa-ul2
           li 
             i.fas.fa-atom
-            p.mb-0 La declaración de la veracidad de los datos informados y del cumplimiento de las condiciones para pertenecer al régimen contributivo o al régimen subsidiado. 
+            | La declaración de la veracidad de los datos informados y del cumplimiento de las condiciones para pertenecer al régimen contributivo o al régimen subsidiado. 
           li 
             i.fas.fa-atom
-            p.mb-0 La aceptación de las condiciones propias del régimen contributivo o subsidiado y aquellas relacionadas con las cuotas moderadoras y copagos para la prestación de los servicios, de conformidad con las normas vigentes, las cuales deberán ser informadas al afiliado.
+            | La aceptación de las condiciones propias del régimen contributivo o subsidiado y aquellas relacionadas con las cuotas moderadoras y copagos para la prestación de los servicios, de conformidad con las normas vigentes, las cuales deberán ser informadas al afiliado.
         .cajon.color-secundario.p-4.mb-0.mb-3
-          p.mb-0 En el Sistema General de Seguridad Social en Salud no habrá afiliaciones retroactivas (Artículo 2.1.3.1 del Decreto 780 del 2016).
+          | En el Sistema General de Seguridad Social en Salud no habrá afiliaciones retroactivas (Artículo 2.1.3.1 del Decreto 780 del 2016).
       .col-lg-3
         figure.mb-2
           img(src='@/assets/curso/tema1/tema1-6/img2.svg', alt='imagen de ambiente', style='width: 313px;').mx-auto
