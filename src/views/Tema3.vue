@@ -96,7 +96,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 6
+          h5 Figura 6.
           span Transformación del dato en conocimiento
 
         figure

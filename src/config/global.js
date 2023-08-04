@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Sistema General de Seguridad Social en Salud',
     descripcionCurso:
       'En este componente formativo se hace una descripción general del Sistema General de Seguridad Social en Salud en Colombia. Es importante que los conocimientos de la competencia de orientación al usuario sean apropiados para brindar asertivamente la información al usuario de acuerdo a sus necesidades y expectativas. Para ello es importante reconocer y comprender la normatividad vigente que rige las políticas institucionales y conocer las normas que rigen el Sistema de Salud en Colombia.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner.png'),
   },
   menuPrincipal: {

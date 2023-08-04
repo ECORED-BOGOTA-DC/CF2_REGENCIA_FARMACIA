@@ -40,7 +40,7 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h3.mb-4(style='font-size: 24px; font-weight: bold') El conjunto de instituciones, normas y procedimientos, de que disponen la persona y la comunidad, para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad
+            h3.mb-4(style='font-size: 24px; font-weight: bold') El conjunto de instituciones, normas y procedimientos, de que disponen la persona y la comunidad, para gozar de una calidad de vida, mediante el cumplimiento progresivo de los planes y programas que el Estado y la sociedad desarrollen para proporcionar la cobertura integral de las contingencias, especialmente las que menoscaban la salud y la capacidad económica de los habitantes del territorio nacional, con el fin de lograr el bienestar individual y la integración de la comunidad.
             i.fas.fa-quote-right.d-flex.justify-content-end
       .col-lg-3.align-self-center.p-0
         figure
@@ -333,7 +333,7 @@
     p.mb-5 De forma gráfica, se puede observar de la siguiente manera:
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 2
+      h5 Figura 2.
       span Actores del SGSSS  
 
     figure.mb-4
@@ -584,7 +584,7 @@
     p.mb-5 La siguiente imagen nos presenta, de forma gráfica, qué es el RIPSS.
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 3
+      h5 Figura 3.
       span Redes Integrales de Prestadores de Servicios de Salud
 
     figure.mb-5
@@ -602,7 +602,7 @@
           .col-lg-4
 
             .titulo-sexto.color-acento-contenido
-              h5 Figura 4
+              h5 Figura 4.
               span Red de prestación de servicios
 
             figure.mb-5
@@ -641,7 +641,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 5
+          h5 Figura 5.
           span Ejemplo sistema de referencia y contrareferencia
 
         figure
