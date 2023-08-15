@@ -22,7 +22,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema3/img1.png',
-                alt='imagen de ambiente',
+                alt='Imágen decorativa',
                 style='width: 280px'
               )
 
@@ -32,7 +32,7 @@
         figure
           img.mx-auto(
             src='@/assets/curso/tema3/img2.svg',
-            alt='imagen de ambiente',
+            alt='Imágen decorativa',
             style='width: 335px'
           )
       .col-lg-7
@@ -78,7 +78,7 @@
         figure
           img.mx-auto(
             src='@/assets/curso/tema3/img3.png',
-            alt='imagen de ambiente',
+            alt='Imágen decorativa',
             style='width: 345px'
           )
       .col-lg-9
@@ -102,7 +102,7 @@
         figure
           img.mb-4(
             src='@/assets/curso/tema3/img4.svg',
-            alt='Transformación del dato en conocimiento'
+            alt='Muestra diagrama de transformación del dato en conocimiento con sus componentes:<br>-Datos<br>-Información'
           )
           figcaption Fuente: MINSALUD
 
@@ -116,7 +116,7 @@
         figure
           img.mb-2.mx-auto(
             src='@/assets/curso/tema3/img5.png',
-            alt='Sistema ingrado de información de la protección social'
+            alt='Imágen decorativa'
           )
       .col-lg-8
         p.mb-0 El Ministerio de Salud y Protección Social, creó el Sistema Integrado de Información de la Protección Social - SISPRO donde los ciudadanos pueden obtener información oportuna, suficiente y estandarizada, para la toma de decisiones del Sector Salud y Protección Social. SISPRO está conformado por bases de datos y sistemas de información del sector sobre oferta y demanda de servicios de salud, calidad de los servicios, aseguramiento, financiamiento, y promoción social. Dentro de este portal, se encuentra disponible una serie de catálogos que le permiten a las entidades adscritas al Sistema General de Seguridad Social en Salud y a la ciudadanía, obtener información consolidada de los diversos repositorios de datos que posee el Ministerio. También se cuenta con la #[strong Plataforma de transporte de Información – PISIS] para el intercambio de información entre los diversos actores del sistema.
@@ -137,7 +137,7 @@
                   figure
                     img.mb-2.mx-auto(
                       src='@/assets/curso/tema3/img6.svg',
-                      alt='imagen ambiental',
+                      alt='Imágen decorativa',
                       style='width: 228px'
                     )
                 .col-lg-9

@@ -16,7 +16,7 @@
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
               img.mx-auto(
                 src='@/assets/curso/tema1/img1.svg',
-                alt='Sistema de Salud Colombiano',
+                alt='Imágen decorativa',
                 style='width: 296'
               )
             .col-md.col-lg-6
@@ -46,7 +46,7 @@
         figure
           img(
             src='@/assets/curso/tema1/img2.png',
-            alt='imagen de ambiente',
+            alt='Imágen decorativa',
             style='width: 274px'
           )
 
@@ -58,7 +58,7 @@
         figure
           img.mx-auto(
             src='@/assets/curso/tema1/img3.svg',
-            alt='¿Quiénes forman parte del Sistema General de Seguridad Social en Salud?'
+            alt='Imágen decorativa'
           )
 
     .row.justify-content-center.centro-fondo--arriba
@@ -67,7 +67,7 @@
           .col-lg-4.mb-4.mb-lg-0
             figure
               img.mx-auto(
-                src='@/assets/curso/tema1/img4.png',
+                src='@/assets/curso/tema1/img4.png',alt="Imágen decorativa"
                 style='width: 270px'
               )
           .col-lg-8
@@ -76,7 +76,7 @@
                 p.mb-0 El objetivo del Sistema General de Seguridad Social en Salud, es el de regular los servicios asistenciales, públicos y privados, del sector salud y facilitar el acceso a todos los residentes de Colombia.
               img.custom-img(
                 src='@/assets/curso/tema1/img5.png',
-                alt='Minsalud'
+                alt='Imágen decorativa'
               )
             .cajon.color-secundario.p-4.mb-5
               p.mb-0 Con base en lo anterior, el SGSSS se compromete a garantizar servicios mejores, completos y equitativos a través del modelo de prestación de servicios de salud pública. Esto permite que el Estado, las instituciones y la sociedad, cooperen en el marco de la estrategia de atención primaria de salud.
@@ -98,7 +98,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img1.jpg',
-                alt='Universalidad',
+                alt='Imágen decorativa',
                 style='width: 487'
               )
 
@@ -112,7 +112,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img2.jpg',
-                alt='Solidaridad'
+                alt='Imágen decorativa'
               )
 
       .py-3.py-md-5(titulo='Eficiencia')
@@ -125,7 +125,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img3.jpg',
-                alt='Eficiencia'
+                alt='Imágen decorativa'
               )
 
       .py-3.py-md-5(titulo='Integralidad')
@@ -138,7 +138,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img4.jpg',
-                alt='Integralidad'
+                alt='Imágen decorativa'
               )
 
       .py-3.py-md-5(titulo='Unidad')
@@ -151,7 +151,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img5.jpg',
-                alt='Unidad'
+                alt='Imágen decorativa'
               )
 
       .py-3.py-md-5(titulo='Participación')
@@ -164,7 +164,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img6.jpg',
-                alt='Participación'
+                alt='Imágen decorativa'
               )
 
     p.mb-5 El SGSSS adiciona nuevos principios que, a su vez, se aplican como reglas, para su óptimo desarrollo; estos principios adicionales son:
@@ -174,7 +174,7 @@
         figure
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-1/img7.png',
-            alt='imagen ambiental',
+            alt='Imágen decorativa',
             style='width: 500px'
           )
       .col-lg-7
@@ -223,7 +223,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img8.svg',
-                alt='imagen ambiental',
+                alt='Imágen decorativa',
                 style='width: 356px'
               )
 
@@ -232,7 +232,7 @@
         figure
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-1/img9.svg',
-            alt='imagen ambiental',
+            alt='Imágen decorativa',
             style='width: 350px'
           )
 
@@ -269,7 +269,7 @@
         figure
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-1/img10.svg',
-            alt='imagen ambiental',
+            alt='Imágen decorativa',
             style='width: 346px'
           )
 
@@ -285,7 +285,7 @@
             figure
               img.mx-auto.mb-5(
                 src='@/assets/curso/tema1/tema1-3/img1.png',
-                alt='imagen ambiental',
+                alt='Imágen decorativa',
                 style='width: 435px'
               )
           .col-lg-7.align-self-center
@@ -339,8 +339,7 @@
     figure.mb-4
       img.mx-auto(
         src='@/assets/curso/tema1/tema1-3/img2.svg',
-        alt='imagen ambiental',
-      )
+        alt='Muestra dirección del SGSSS, identificando los principales actores en sus 4 fases:<br>1. Dirección ejercido por el ministerio de salud y protección social.',)
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -366,7 +365,7 @@
         figure.mb-4
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-4/img1.png',
-            alt='imagen ambiental',
+            alt='Imágen decorativa',
           )
 
     p.mb-5 El aseguramiento se realiza a través de dos grandes regímenes:
@@ -376,14 +375,14 @@
         .row.justify-content-center(style='margin-bottom:40px;')
           .col-4
             figure
-              img(src='@/assets/curso/tema1/tema1-4/img2.svg', alt='imagen avatar')
+              img(src='@/assets/curso/tema1/tema1-4/img2.svg', alt='Imágen decorativa')
         h2.text-center.mb-4 Contributivo
         p.text-center Incluye los empleados, empleadores y trabajadores independientes con capacidad de pago, quienes aportan mensualmente para salud y pensión.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center(style='margin-bottom:40px;')
           .col-4
             figure
-              img(src='@/assets/curso/tema1/tema1-4/img3.svg', alt='imagen avatar')
+              img(src='@/assets/curso/tema1/tema1-4/img3.svg', alt='Imágen decorativa')
         h2.text-center.mb-4 Subsidiado
         p.text-center Cobija a todas las personas pobres y vulnerables, donde los servicios de salud están garantizados con los recaudos de solidaridad de los demás participantes en el sistema.
 
@@ -400,7 +399,7 @@
               .row.m-0.align-items-center.justify-content-between
                 .col-lg-4.mb-4.mb-lg-0
                   figure
-                    img(src='@/assets/curso/tema1/tema1-4/img4.svg', alt='imagen de ambiente', style='width: 360px').m-auto
+                    img(src='@/assets/curso/tema1/tema1-4/img4.svg', alt='Imágen decorativa', style='width: 360px').m-auto
                 .col-lg-8
                   .bloque-texto-a__texto.p-3
                     p.mb-0 #[strong Administradoras de Riesgos Laborales (ARL)], responsables de atender los accidentes o enfermedades derivados de los riesgos ocupacionales; todo empleador debe afiliar y aportar por todos y cada uno de sus empleados. Los trabajadores independientes también se deben afiliar a la ARL, de acuerdo al riesgo que genere su ocupación. Con esta afiliación, se cubren todos los gastos ocasionados por eventos en salud en el entorno laboral, así como el pago de los días de incapacidad, derivados de la misma.
@@ -423,7 +422,7 @@
         
       .col-lg-3
         figure.mb-2
-          img(src='@/assets/curso/tema1/tema1-5/img1.svg', alt='imagen de ambiente', style='width:336px').mx-auto
+          img(src='@/assets/curso/tema1/tema1-5/img1.svg', alt='Imágen decorativa', style='width:336px').mx-auto
 
 
     separador
@@ -435,7 +434,7 @@
     .row.justify-content-center.mb-2
       .col-lg-3
         figure.mb-2
-          img(src='@/assets/curso/tema1/tema1-6/img1.svg', alt='imagen de ambiente', style='width:255px').mx-auto
+          img(src='@/assets/curso/tema1/tema1-6/img1.svg', alt='Imágen decorativa', style='width:255px').mx-auto
       .col-lg-8.align-self-center
         p.mb-4 Se efectúa con:
         ul.lista-ul.mb-5.ms-4.fa-ul2
@@ -462,7 +461,7 @@
           | En el Sistema General de Seguridad Social en Salud no habrá afiliaciones retroactivas (Artículo 2.1.3.1 del Decreto 780 del 2016).
       .col-lg-3
         figure.mb-2
-          img(src='@/assets/curso/tema1/tema1-6/img2.svg', alt='imagen de ambiente', style='width: 313px;').mx-auto
+          img(src='@/assets/curso/tema1/tema1-6/img2.svg', alt='Imágen decorativa', style='width: 313px;').mx-auto
 
     p.mb-5 Los siguientes conceptos se deben tener siempre presentes en las afiliaciones:
 
@@ -472,7 +471,7 @@
           .row(numero="1" titulo="Afiliaciones colectivas",  style='justify-content: space-around')
             .col-md-3.mt-4
               figure
-                img(src='@/assets/curso/tema1/tema1-6/img3.svg', alt='imagen de ambiente' style='width: 221px;').mx-auto
+                img(src='@/assets/curso/tema1/tema1-6/img3.svg', alt='Imágen decorativa' style='width: 221px;').mx-auto
                 
             .col-md-8.mb-4.mb-md-0.align-self-center
               p La afiliación al Sistema de Seguridad Social Integral, podrá realizarse de manera colectiva, solamente a través de las asociaciones, agremiaciones y congregaciones religiosas autorizadas previamente por el Ministerio de Salud y Protección Social, en los términos y condiciones previstos en los artículos 3.2.6.1 a 3.2.6.13 del decreto 780 del 2016.
@@ -482,7 +481,7 @@
               p.mb-0 Es la garantía de la accesibilidad a los servicios de salud, en cualquier municipio del territorio nacional, para todo afiliado al Sistema General de Seguridad Social en Salud, que emigre del municipio, domicilio de afiliación, o de aquel donde habitualmente recibe los servicios de salud.
             .col-md-3
               figure
-                img(src='@/assets/curso/tema1/tema1-6/img4.svg', alt='imagen de ambiente' style='width: 225px;').mx-auto
+                img(src='@/assets/curso/tema1/tema1-6/img4.svg', alt='Imágen decorativa' style='width: 225px;').mx-auto
                 
             .col-md-8.mb-4.mb-md-0
               .cajon.color-secundario.p-4.mb-2
@@ -491,7 +490,7 @@
           .row(numero="3" titulo="Movilidad",  style='justify-content: space-around')
             .col-md-3.mt-4
               figure
-                img(src='@/assets/curso/tema1/tema1-6/img5.svg', alt='imagen de ambiente' style='width: 243px;')
+                img(src='@/assets/curso/tema1/tema1-6/img5.svg', alt='Imágen decorativa' style='width: 243px;')
                 
             .col-md-8.mb-4.mb-md-0.align-self-center
               p Es el cambio de pertenencia a un régimen dentro de la misma EPS, para los afiliados en el Sistema General de Seguridad Social en Salud, focalizados en los niveles I y II del SISBÉN y algunas poblaciones especiales.
@@ -499,7 +498,7 @@
           .row(numero="4" titulo="Multiafiliación",  style='justify-content: space-around')
             .col-md-3.mt-4
               figure
-                img(src='@/assets/curso/tema1/tema1-6/img6.svg', alt='imagen de ambiente' style='width: 223px;')
+                img(src='@/assets/curso/tema1/tema1-6/img6.svg', alt='Imágen decorativa' style='width: 223px;')
                 
             .col-md-8.mb-4.mb-md-0.align-self-center
               p Afiliación simultánea de una persona, a dos o más entidades pertenecientes al régimen contributivo, o la afiliación tanto al régimen contributivo, como al subsidiado.
@@ -519,14 +518,14 @@
             .row.justify-content-center(style='margin-bottom:40px;')
               .col-4
                 figure
-                  img(src='@/assets/curso/tema1/tema1-7/img1.svg', alt='imagen avatar')
+                  img(src='@/assets/curso/tema1/tema1-7/img1.svg', alt='Imágen decorativa')
             h2.text-center.mb-4 IPS
             p.text-center Instituciones Prestadoras de <br>Servicios de Salud
           .col-md.tarjeta.color-secundario.p-5
             .row.justify-content-center(style='margin-bottom:40px;')
               .col-4
                 figure
-                  img(src='@/assets/curso/tema1/tema1-7/img2.svg', alt='imagen avatar')
+                  img(src='@/assets/curso/tema1/tema1-7/img2.svg', alt='Imágen decorativa')
             h2.text-center.mb-4 IPSI
             p.text-center Instituciones Prestadoras de Servicios<br> de Salud Indígena
 
@@ -545,7 +544,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-7/img3.png',
-                alt='Baja complejidad',
+                alt='Imágen decorativa',
                 style='width: 520px;'
               )
 
@@ -559,7 +558,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-7/img4.png',
-                alt='Mediana complejidad'
+                alt='Imágen decorativa'
               )
 
       .py-3.py-md-5(titulo='Alta complejidad')
@@ -575,7 +574,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-7/img5.png',
-                alt='Alta complejidad'
+                alt='Imágen decorativa'
               )
 
     .h3.mb-4 Redes integrales de prestadores de servicio de salud - RIPSS
@@ -588,7 +587,7 @@
       span Redes Integrales de Prestadores de Servicios de Salud
 
     figure.mb-5
-      img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img6.svg', alt='REDES INTEGRALES DE PRESTADORES DE SERVICIOS DE SALUD')
+      img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img6.svg', alt='Muestra redes integrales de prestadores de servicios de salud compuesta por servicios, prestadores y organizaciones funcionales.')
       figcaption Fuente: Tomada de MINSALUD
 
     
@@ -606,7 +605,7 @@
               span Red de prestación de servicios
 
             figure.mb-5
-              img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='imagen ambientas', style='width:465px')
+              img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='Imágen decorativa', style='width:465px')
           .col-lg-7.mb-5
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='¿Qué es?') Es un conjunto articulado de prestadores de servicios de salud, ubicados en el mismo espacio geográfico, que trabajan de manera organizada y coordinada, en un proceso de integralidad con la entidad responsable de pago. 
@@ -618,7 +617,7 @@
         .row.justify-content-center
           .col-lg-11
             .tarjeta-avatar-b.tarjetar.mb-5
-              img(src='@/assets/curso/tema1/tema1-7/icon1.svg' alt='AvatarTop', style='')
+              img(src='@/assets/curso/tema1/tema1-7/icon1.svg' alt='Imágen decorativa', style='')
               .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
                 
                   h4(style="padding-left: 70px;") Referencia
@@ -627,7 +626,7 @@
         .row.justify-content-center.mb-4
           .col-lg-11
             .tarjeta-avatar-b.tarjetar.mb-5
-              img(src='@/assets/curso/tema1/tema1-7/icon2.svg' alt='AvatarTop', style='')
+              img(src='@/assets/curso/tema1/tema1-7/icon2.svg' alt='Imágen decorativa', style='')
               .tarjeta.tarjeta--gris.p-4(style='border-radius:0;')
                   h4(style="padding-left: 70px;") Contrareferencia
                   p(style="padding-left: 70px;") Es la respuesta que el prestador de servicios de salud, receptor de la referencia, da al prestador que remitió. La respuesta puede ser la contra remisión del paciente con las debidas indicaciones a seguir, o simplemente la información sobre la atención prestada al paciente en la institución receptora, o el resultado de las solicitudes de ayuda diagnóstica.
@@ -645,7 +644,7 @@
           span Ejemplo sistema de referencia y contrareferencia
 
         figure
-          img(src='@/assets/curso/tema1/tema1-7/img8.svg' alt='AvatarTop', style='').mx-auto
+          img(src='@/assets/curso/tema1/tema1-7/img8.svg' alt='Muestra ejemplo del sistema de referencia y contrareferencia, apoyo especializado por medico general   en referencia y por IPS  mayor en contrareferencia', style='').mx-auto
 
     p.mb-4 En la red de prestación de servicios, existen los siguientes tipos de atención:
 
@@ -660,7 +659,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-7/img9.jpg',
-                alt='',
+                alt='Imágen decorativa',
                 style='width: 487'
               )
 
@@ -674,7 +673,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-7/img10.jpg',
-                alt=''
+                alt='Imágen decorativa'
               )
 
       .py-3.py-md-5(titulo='Telemedicina')
@@ -687,8 +686,11 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-7/img11.jpg',
-                alt=''
+                alt='Imágen decorativa'
               )
+
+    .cajon.color-secundario.p-4.mb-5
+      p.mb-0 Las entidades que prestan servicios de salud, bajo la modalidad de Telemedicina, se clasifican en Instituciones Remisoras y Centros de Referencia; en este sentido, son consideradas Instituciones Prestadoras de Servicios de Salud y, por lo tanto, deben cumplir con todas las disposiciones contenidas en la resolución 1448 de 2006 y con las exigencias y procedimientos establecidos en el Decreto 1011 de 2006. Todo lo relacionado con teleorientación, teleconsulta, telesalud, teleducación, teleasistencia, telemedicina, son tecnologías que hacen parte de la integración de las TIC y la Salud. Durante la contingencia generada por el CORONAVIRUS, en el mundo entero se utilizó, de forma activa, todo lo relacionado anteriormente.
 
 
     .h3.mb-4 Plan de Beneficios en Salud
@@ -701,7 +703,7 @@
         .row(style='justify-content:space-between')
             .col-lg-4
               figure.mb-2
-                img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img12.png', alt='imagen ambientas', style='width:462px').mx-auto
+                img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img12.png', alt='Imágen decorativa', style='width:462px').mx-auto
             .col-lg-7
               LineaTiempoD.color-secundario
                 p.text-medium(numero='1', titulo='Plan atención básica') Denominado, posteriormente, Plan Nacional de Salud Pública, configurado por acciones gratuitas y primordialmente colectivas, de promoción de la salud, prevención de la enfermedad y, en algunos casos, acciones individuales de diagnóstico y tratamiento de algunas enfermedades de interés en salud pública, provistas por la red pública de prestadores y administrado por las entidades territoriales.
@@ -728,7 +730,7 @@
           .tarjetaContent
             .tarjetaImg
               figure.mb-3
-                img(src="@/assets/curso/tema1/tema1-8/icon1.svg", alt="acceso", style="width:120px;").m-auto
+                img(src="@/assets/curso/tema1/tema1-8/icon1.svg", alt="Imágen decorativa", style="width:120px;").m-auto
               h4.text-center Control <br>pólitico
             .tarjetaTxt
               p.mb-0 Se establece a través de las corporaciones públicas como el Congreso de la República, las Asambleas Departamentales y los Concejos Municipales. 
@@ -738,7 +740,7 @@
           .tarjetaContent
             .tarjetaImg
               figure.mb-3
-                img(src="@/assets/curso/tema1/tema1-8/icon2.svg", alt="acceso", style="width:120px;").m-auto
+                img(src="@/assets/curso/tema1/tema1-8/icon2.svg", alt="Imágen decorativa", style="width:120px;").m-auto
               h5.text-center Control<br>externo
             .tarjetaTxt
               p.mb-0 Corresponde a las instituciones de fiscalización del Estado, tales como la Contraloría, Procuraduría, Superintendencias, entre otros.
@@ -748,7 +750,7 @@
           .tarjetaContent
             .tarjetaImg
               figure.mb-3
-                img(src="@/assets/curso/tema1/tema1-8/icon3.svg", alt="acceso", style="width:120px;").m-auto
+                img(src="@/assets/curso/tema1/tema1-8/icon3.svg", alt="Imágen decorativa", style="width:120px;").m-auto
               h5.text-center Control <br> social
             .tarjetaTxt
               p.mb-0 Proviene de los ciudadanos, a través de las veedurías ciudadanas y las asociaciones de usuarios.
@@ -760,15 +762,15 @@
     .row.mb-5(style='justify-content:center')
       .col-lg-3.col-md-3.mx-3.mb-4.px-4(style='background-color: #E6F7FE; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px')
         figure.mb-4.mt-4
-          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon4.svg", alt="AvatarImg", style="width:116px;")
+          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon4.svg", alt="Imágen decorativa", style="width:116px;")
         h5.mb-5.text-center Multiafiliación
       .col-lg-3.col-md-3.mx-3.mb-4.px-4(style='background-color: #E6F7FE; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px ')
         figure.mb-4.mt-4
-          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon5.svg", alt="AvatarImg", style="width:116px;")
+          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon5.svg", alt="Imágen decorativa", style="width:116px;")
         h5.mb-4.text-center Tardanza entre afiliación y carnetización
       .col-lg-3.col-md-3.mx-3.mb-4.px-4(style='background-color: #E6F7FE; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px ')
         figure.mb-4.mt-4
-          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon6.svg", alt="AvatarImg", style="width:116px;")
+          img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon6.svg", alt="Imágen decorativa", style="width:116px;")
         h5.mb-4.text-center Deficiencias en la calidad y oportunidad del servicio
 
     p.mb-5 Y los entes responsables de realizar Inspección Vigilancia y Control, de todos los actores del Sistema General de Seguridad Social en Salud S.G.S.S.S, son:
@@ -782,7 +784,7 @@
         
           .col-md-3
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img1.svg', alt='Superintendencia Nacional de Salud')
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img1.svg', alt='Muestra logo de Supersalud')
       
       .py-4.py-md-5(titulo="Entes territoriales / Entes de control" :icono="require('@/assets/curso/tema1/tema1-8/icon8.svg')")
         .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
@@ -792,7 +794,7 @@
         
           .col-md-3
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img2.svg', alt='Entes territoriales / Entes de control')
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img2.svg', alt='Muestra imagen de ente territorial de salud')
       
       .py-4.py-md-5(titulo="INVIMA" :icono="require('@/assets/curso/tema1/tema1-8/icon9.svg')")
         .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
@@ -802,7 +804,7 @@
         
           .col-md-3
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img3.svg', alt='')
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img3.svg', alt='Muestra logo Invima, instituto nacional de vigilancia de medicamentos y alimentos')
 
       .py-4.py-md-5(titulo="Instituto Nacional de Salud" :icono="require('@/assets/curso/tema1/tema1-8/icon10.svg')")
         .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
@@ -812,7 +814,7 @@
         
           .col-md-3
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img4.svg', alt='Instituto Nacional de Salud')
+              img.mx-auto(src='@/assets/curso/tema1/tema1-8/img4.svg', alt='Muestra logo instituto nacional de salud')
 
     .row.justify-content-center.centro-fondo--arriba
       .col-lg-12.ps-5.pe-5
@@ -823,7 +825,7 @@
         .row.justify-content-center.mb-5
           .col-lg-3.mb-2
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img1.svg', alt='imagen de ambiente', style='width:280px')
+              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img1.svg', alt='Imágen decorativa', style='width:280px')
           .col-lg-9
             p.mb-4 Para la atención en Salud, de todo lo relacionado con enfermedad general y con riesgos no laborales, el gobierno destina recursos para la salud, administrados por la ADRES, Administradora de los Recursos del Sistema General de Seguridad Social en Salud, creada a partir del Decreto 1429 del 1 de septiembre de 2016, por el Ministerio de Salud.
             .cajon.color-secundario.p-4 
@@ -838,7 +840,7 @@
               p.text-medium(numero='4', titulo='Subcuenta promoción') Financia las actividades de educación, información y fomento de la salud y de prevención de la enfermedad, las cuales se encuentran en el Plan de Atención Básica – PAB.
           .col-lg-4
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img2.svg', alt='imagen de ambiente', style='width:392px')
+              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img2.svg', alt='Imágen decorativa', style='width:392px')
 
     p.mb-4.mt-5 En los regímenes exceptuados del sistema, como son las Fuerzas Armadas, Fondo Nacional del Magisterio, Ecopetrol y Universidades públicas, la financiación es responsabilidad de los fondos específicos de cada régimen exceptuado; estos, a la vez, deben aportar recursos para la subcuenta de solidaridad con que financia el Régimen Subsidiado del Sistema General. Igualmente, es importante aclarar que, parte de dinero de la subcuenta de solidaridad, recaudada por ADRES, son recursos que provienen de las empresas de medicina prepagada o planes complementarios de salud; todo lo anterior, ratifica el principio de solidaridad “mutua ayuda entre las personas, las generaciones, los sectores económicos, las regiones y las comunidades, bajo el principio del más fuerte hacia el más débil” del SGSSS.
     p.mb-5 En este punto, es importante tener presente qué es una cuota:
@@ -855,7 +857,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-9/img3.svg',
-                alt='Copagos',
+                alt='Imágen decorativa',
                 style='width: 328px'
               )
 
@@ -869,7 +871,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-9/img4.svg',
-                alt='Cuotas moderadas',
+                alt='Imágen decorativa',
                 style='width: 330px'
               )
 
@@ -883,7 +885,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-9/img5.svg',
-                alt='Cuotas de recuperación',
+                alt='Imágen decorativa',
                 style='width: 308px'
               )
 

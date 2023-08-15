@@ -14,6 +14,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema2/img1.png',
+                alt="Imágen decorativa"
                 style='width: 280px'
               )
           .col-lg-8
@@ -23,13 +24,13 @@
                 p.mb-0 El conjunto de políticas que buscan garantizar, de una manera integrada, la salud de la población por medio de acciones de salubridad dirigidas tanto de manera individual, como colectiva, ya que sus resultados se constituyen en indicadores de las condiciones de vida, bienestar y desarrollo del país. Dichas acciones se realizarán bajo la rectoría del Estado y deberán promover la participación responsable de todos los sectores de la comunidad.
               img.custom-img(
                 src='@/assets/curso/tema1/img5.png',
-                alt='Minsalud'
+                alt='Imágen decorativa'
               )
 
     .row.justify-content-center.mb-5
       .col-lg-10
         figure
-          img.mx-auto(src='@/assets/curso/tema2/img2.svg',)
+          img.mx-auto(src='@/assets/curso/tema2/img2.svg',alt="Imágen decorativa")
 
     .cajon.color-secundario.p-4.mb-5
       p.mb-0 El Ministerio de Salud y Protección Social, como ente rector del Sistema General de Seguridad Social en Salud – SGSSS, y del sector salud en general, tiene la función de proveer, de manera integral, las acciones de salud individuales y colectivas, con la participación responsable de todos los sectores de la sociedad, para mejorar las condiciones de salud de la población colombiana.
@@ -49,7 +50,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema2/img3.png',
-                alt='Plan de salud pública - PDSP 2012-2021 ',
+                alt='Imágen decorativa',
                 style='width: 486px;'
               )
 
@@ -66,7 +67,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema2/img4.png',
-                alt='Política de Seguridad del Paciente',
+                alt='Imágen decorativa',
                 style='width:312px;'
               )
 
@@ -84,7 +85,7 @@
             figure
               img.mx-auto(
                 src='@/assets/curso/tema2/img5.png',
-                alt='Política Atención Integral de Salud - MAITE – RIAS'
+                alt='Imágen decorativa'
                 style='width:486px'
               )
 

@@ -150,7 +150,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/331502_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -263,66 +263,93 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Normativa del SGSSS',
-      tipo: 'PDF',
-      descarga: '/downloads/material-complemetario/Decreto 0780 de 2016.pdf',
+      tema: 'Normativa del SGSSS',
+      referencia:
+        'Decreto 780 del 2016. (2016). <i>“Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social”.</i>',
+      tipo: 'Documento oficial',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
     {
-      texto: 'Plan de Calidad de los Componentes de Información',
-      tipo: 'PDF',
-      descarga:
-        '/downloads/material-complemetario/plan-calidad-componentes-informacion-minsalud-2020.pdf',
+      tema: 'PLAN DE CALIDAD COMPONENTE DE LA INFORMACIÓN.',
+      referencia:
+        'Ministerio de Salud y Protección Social. OFICINA DE TECNOLOGÍA DE LA INFORMACIÓN Y LA COMUNICACIÓN. Bogotá 13 enero de 2020',
+      tipo: 'Documento oficial',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/OT/plan-calidad-componentes-informacion-minsalud-2020.pdf',
     },
     {
-      texto: 'Reforma SGSSS',
-      tipo: 'PDF',
-      descarga: '/downloads/material-complemetario/ley1438de2011.pdf',
+      tema: 'Reforma SGSSS',
+      referencia:
+        'Ley 1438 - 2011 “Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones” enero 19 del 2011.',
+      tipo: 'Documento oficial',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Normatividad/ley1438de2011.pdf',
     },
     {
-      texto:
+      tema:
         'Sistema Obligatorio de Garantía de Calidad de la Atención de Salud.',
-      tipo: 'PDF',
-      descarga: '/downloads/material-complemetario/DECRETO 1011 DE 2006.pdf',
+      referencia:
+        'Decreto 1011 - 2006 “Por el cual se establece el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud del Sistema General de Seguridad Social en Salud”, Ministerio de la Protección Social. abril 3 de 2006.',
+      tipo: 'Documento oficial',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/DECRETO%201011%20DE%202006.pdf',
     },
     {
-      texto:
+      tema:
         'Prestadores de servicios de salud y de habilitación de los servicios de salud – REPS - ',
-      tipo: 'PDF',
-      descarga:
-        '/downloads/material-complemetario/Resolución No. 3100 de 2019.pdf',
+      referencia:
+        'Resolución 3100 - 2019 “Por la cual se definen procedimientos y condiciones de inscripción de los prestadores de servicios de salud y de habilitación de los servicios de salud y se adopta el manual de inscripción de Prestadores y Habilitación de servicios de salud, Ministerio de Salud y Protección Social”.',
+      tipo: 'Documento oficial',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No.%203100%20de%202019.pdf',
     },
     {
-      texto: 'Sistema General Seguridad Social Salud',
+      tema: 'Sistema General Seguridad Social Salud',
+      referencia:
+        'Positiva Colombia. (18 de agosto de 2016). Sistema General Seguridad Social Salud. [Video]. https://www.youtube.com/watch?v=obE8FsL3Tvg',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=obE8FsL3Tvg',
     },
     {
-      texto: 'ADRES',
+      tema: 'ADRES',
+      referencia:
+        'ADRES. [ADRES Colombia]. (25 de septiembre de 2018). ADRES. [Video]. https://www.youtube.com/watch?v=Uxu6MU3Xu8k&t=43s',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Uxu6MU3Xu8k&t=43s',
     },
     {
-      texto: 'Generalidades de la Política de Seguridad del Paciente',
+      tema: 'Generalidades de la Política de Seguridad del Paciente',
+      referencia:
+        'Observatorio Calidad. (31 de julio de 2010). Generalidades de la Política de Seguridad del Paciente. [Video].',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=bvJBtSPwcpU',
     },
     {
-      texto: 'ADRES | Recursos que se convierten en salud',
+      tema: 'ADRES | Recursos que se convierten en salud',
+      referencia:
+        'ADRES Colombia. [ADRES]. (31 de julio de 2019). ADRES | Recursos que se convierten en salud. [Video].',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=CgAmHIC5QbM',
     },
     {
-      texto: '¿Qué es la Base de Datos Única de Afiliados - BDUA?',
+      tema: '¿Qué es la Base de Datos Única de Afiliados - BDUA?',
+      referencia:
+        'ADRES Colombia. [ADRES]. (04 de diciembre de 2020). ¿Qué es la Base de Datos Única de Afiliados - BDUA?.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Eh3Vss5ifPk',
     },
     {
-      texto: 'Dimensiones del Plan Decenal de Salud Pública 2012 - 2021',
+      tema: 'Dimensiones del Plan Decenal de Salud Pública 2012 - 2021',
+      referencia:
+        'MinSaludCol. (05 de junio de 2013). Dimensiones del Plan Decenal de Salud Pública 2012 - 2021. [Video]. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=MMVi6Rdf7vI',
     },
     {
-      texto: 'Sistemas de Información en Salud',
+      tema: 'Sistemas de Información en Salud',
+      referencia:
+        'ADRES. (07 de febrero de 2021). Sistemas de Información en Salud.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=TVzcTxyp7ms',
     },
