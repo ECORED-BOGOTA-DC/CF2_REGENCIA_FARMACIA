@@ -23,7 +23,7 @@
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="flip-up")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2GIhYcPJxgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     p.ps-4 #[strong ¡Muchos éxitos en este proceso de aprendizaje!]
