@@ -19,8 +19,8 @@
               )
           .col-lg-8
             .row.px-4.mb-4
-              p.mb-4 En el marco de los lineamientos de la Seguridad Social en Salud de Colombia, la salud pública se concibe como:
-              .col-12.p-4.custom-card
+              p.mb-4(data-aos="fade-right") En el marco de los lineamientos de la Seguridad Social en Salud de Colombia, la salud pública se concibe como:
+              .col-12.p-4.custom-card(data-aos="flip-up")
                 p.mb-0 El conjunto de políticas que buscan garantizar, de una manera integrada, la salud de la población por medio de acciones de salubridad dirigidas tanto de manera individual, como colectiva, ya que sus resultados se constituyen en indicadores de las condiciones de vida, bienestar y desarrollo del país. Dichas acciones se realizarán bajo la rectoría del Estado y deberán promover la participación responsable de todos los sectores de la comunidad.
               img.custom-img(
                 src='@/assets/curso/tema1/img5.png',
@@ -32,7 +32,7 @@
         figure
           img.mx-auto(src='@/assets/curso/tema2/img2.svg',alt="Imágen decorativa")
 
-    .cajon.color-secundario.p-4.mb-5
+    .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
       p.mb-0 El Ministerio de Salud y Protección Social, como ente rector del Sistema General de Seguridad Social en Salud – SGSSS, y del sector salud en general, tiene la función de proveer, de manera integral, las acciones de salud individuales y colectivas, con la participación responsable de todos los sectores de la sociedad, para mejorar las condiciones de salud de la población colombiana.
 
 

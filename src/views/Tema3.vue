@@ -12,12 +12,12 @@
         .row(style='justify-content: space-between')
           .col-lg-8.pt-4
             p.mb-4 Según el Decreto 1011 del 3 de abril de 2006:
-            .bloque-texto-b.color-primario.p-4.ms-4.mb-5
+            .bloque-texto-b.color-primario.p-4.ms-4.mb-5(data-aos="flip-down")
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
                 h3.mb-0(style='font-size: 24px; font-weight: bold') Es el conjunto de instituciones, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el sector salud para generar, mantener y mejorar la calidad de los servicios de salud en el país.
                 i.fas.fa-quote-right.d-flex.justify-content-end
-            p.mb-4 Las acciones que desarrolle el SOGCS, se orientarán hacia la mejora de los resultados de la atención en salud, centrados en el usuario, y que van más allá de la verificación de la existencia de estructura o de la documentación de procesos, los cuales solo constituyen prerrequisito para alcanzar los mencionados resultados.
+            p.mb-4(data-aos="fade-right") Las acciones que desarrolle el SOGCS, se orientarán hacia la mejora de los resultados de la atención en salud, centrados en el usuario, y que van más allá de la verificación de la existencia de estructura o de la documentación de procesos, los cuales solo constituyen prerrequisito para alcanzar los mencionados resultados.
           .col-lg-3.align-self-top.p-0
             figure
               img.mx-auto(
@@ -26,7 +26,7 @@
                 style='width: 280px'
               )
 
-    p.mb-5 Para efectos de evaluar y mejorar la Calidad de la Atención de Salud, el SOGCS deberá cumplir con las siguientes características específicas:
+    p.mb-5(data-aos="fade-left") Para efectos de evaluar y mejorar la Calidad de la Atención de Salud, el SOGCS deberá cumplir con las siguientes características específicas:
     .row.justify-content-center.mb-5
       .col-lg-5.mb-4
         figure
@@ -44,10 +44,10 @@
           p.text-medium(numero='5', titulo='Continuidad') Se concreta con el grado en el cual los usuarios reciben las intervenciones requeridas, mediante una secuencia lógica y racional de actividades, basada en el conocimiento científico.
 
     separador
-    #t_3_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 3.1 Componentes del SOGCS
 
-    p.mb-5 El SOGCS está conformado por los siguientes componentes:
+    p.mb-5(data-aos="fade-left") El SOGCS está conformado por los siguientes componentes:
 
     .row.justify-content-center.centro-fondo--arriba
       .col-lg-12.ps-5.pe-5
@@ -72,7 +72,7 @@
               h3 Sistemas de información en salud
               p Se refiere a la integración de actividades que buscan satisfacer las necesidades de información de uno o más grupos de interés. Un servicio de información se describe como un proceso: qué recibe como entrada y qué produce como salida, de acuerdo a un contrato de servicio que se debe cumplir.
 
-    p.mb-5 Es importante reconocer que la información se ha convertido en un activo altamente valioso para las instituciones prestadoras de servicios de salud, lo que redunda en satisfacción para las familias, comunidades y habitantes del territorio nacional, ya que la misma se convierte en un elemento esencial que entrega beneficios para las personas, a través de la generación del conocimiento; es por esta razón, que el Ministerio de Salud y Protección Social a través de la Ley 1438 de 2011 artículo 112, es el responsable de articular el manejo de la administración de la información, a través del Sistema Integrado de Información de la Protección Social, SISPRO.
+    p.mb-5(data-aos="fade-right") Es importante reconocer que la información se ha convertido en un activo altamente valioso para las instituciones prestadoras de servicios de salud, lo que redunda en satisfacción para las familias, comunidades y habitantes del territorio nacional, ya que la misma se convierte en un elemento esencial que entrega beneficios para las personas, a través de la generación del conocimiento; es por esta razón, que el Ministerio de Salud y Protección Social a través de la Ley 1438 de 2011 artículo 112, es el responsable de articular el manejo de la administración de la información, a través del Sistema Integrado de Información de la Protección Social, SISPRO.
     .row.justify-content-center.mb-4
       .col-lg-3.mb-2
         figure
@@ -82,7 +82,7 @@
             style='width: 345px'
           )
       .col-lg-9
-        .bloque-texto-b.color-primario.p-4.ms-4.mb-5
+        .bloque-texto-b.color-primario.p-4.ms-4.mb-5(data-aos="flip-down")
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             h3.mb-2(style='font-size: 22px; font-weight: bold') Con el fin de alcanzar un manejo veraz, oportuno, pertinente y transparente de los diferentes tipos de datos generados por todos los actores, en sus diferentes niveles y su transformación en información para la toma de decisiones, se implementará una política que incluya un sistema único de información en salud, que integre los componentes demográficos, socioeconómicos, epidemiológicos, clínicos, administrativos y financieros. Los agentes del Sistema deben suministrar la información que requiera el Ministerio de Salud y Protección Social, en los términos y condiciones que se determine.
@@ -90,12 +90,12 @@
             .bloque-texto-d__autor
               .h5.mb-0 - (Artículo 19 Ley 1751 de 2015).
 
-    .cajon.color-secundario.p-4.mb-5
+    .cajon.color-secundario.p-4.mb-5(data-aos="flip-down")
       p.mb-0 De acuerdo con las anteriores premisas y lineamientos, es necesario dar la razón a la evolución que presentan los datos para convertirse en activos de valor y generar objetivos concretos que garanticen la toma de decisiones en todos niveles jerárquicos de las instituciones prestadoras de servicios de salud, públicas y privadas, y del ente rector, Ministerio de Salud y Protección Social; por lo tanto, la siguiente gráfica presenta #[strong la evolución y transformación de los datos en conocimiento:]
 
     .row.justify-content-center.mb-5
       .col-lg-9
-        .titulo-sexto.color-acento-contenido.mb-5
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 6.
           span Transformación del dato en conocimiento
 
@@ -107,31 +107,31 @@
           figcaption Fuente: MINSALUD
 
     separador
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 3.2 Calidad de datos
 
-    p.mb-5 La Guía Técnica de información G.Inf. 06, define calidad de datos como el ámbito enfocado en el aseguramiento de la calidad, para garantizar la prestación de servicios de información e institucionales, a través de la identificación y propuesta de mejoras, la modificación del modelo operativo y la actualización y verificación del cumplimiento de los indicadores de calidad, definidos para el dato.
+    p.mb-5(data-aos="fade-right") La Guía Técnica de información G.Inf. 06, define calidad de datos como el ámbito enfocado en el aseguramiento de la calidad, para garantizar la prestación de servicios de información e institucionales, a través de la identificación y propuesta de mejoras, la modificación del modelo operativo y la actualización y verificación del cumplimiento de los indicadores de calidad, definidos para el dato.
     .row.justify-content-center.mb-4
       .col-lg-4.align-self-center
-        figure
+        figure(data-aos="fade-right")
           img.mb-2.mx-auto(
             src='@/assets/curso/tema3/img5.png',
-            alt='Imágen decorativa'
+            alt='Muestra logo de Sispro, Sistema integrado de información de la protección social'
           )
       .col-lg-8
-        p.mb-0 El Ministerio de Salud y Protección Social, creó el Sistema Integrado de Información de la Protección Social - SISPRO donde los ciudadanos pueden obtener información oportuna, suficiente y estandarizada, para la toma de decisiones del Sector Salud y Protección Social. SISPRO está conformado por bases de datos y sistemas de información del sector sobre oferta y demanda de servicios de salud, calidad de los servicios, aseguramiento, financiamiento, y promoción social. Dentro de este portal, se encuentra disponible una serie de catálogos que le permiten a las entidades adscritas al Sistema General de Seguridad Social en Salud y a la ciudadanía, obtener información consolidada de los diversos repositorios de datos que posee el Ministerio. También se cuenta con la #[strong Plataforma de transporte de Información – PISIS] para el intercambio de información entre los diversos actores del sistema.
+        p.mb-0(data-aos="fade-left") El Ministerio de Salud y Protección Social, creó el Sistema Integrado de Información de la Protección Social - SISPRO donde los ciudadanos pueden obtener información oportuna, suficiente y estandarizada, para la toma de decisiones del Sector Salud y Protección Social. SISPRO está conformado por bases de datos y sistemas de información del sector sobre oferta y demanda de servicios de salud, calidad de los servicios, aseguramiento, financiamiento, y promoción social. Dentro de este portal, se encuentra disponible una serie de catálogos que le permiten a las entidades adscritas al Sistema General de Seguridad Social en Salud y a la ciudadanía, obtener información consolidada de los diversos repositorios de datos que posee el Ministerio. También se cuenta con la #[strong Plataforma de transporte de Información - PISIS] para el intercambio de información entre los diversos actores del sistema.
 
     
 
     .row.justify-content-center.centro-fondo--arriba.mb-5
       .col-lg-12.ps-5.pe-5
         separador
-        #t_3_3.titulo-segundo.color-acento-contenido
+        #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           .h2 3.3 Sistemas de información en salud
 
         .row.justify-content-center.mb-5
           .col-lg-11
-            .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5 
+            .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5(data-aos="flip-down")
               .row.m-0.align-items-center.justify-content-between
                 .col-lg-3.mb-4.mb-lg-0
                   figure
