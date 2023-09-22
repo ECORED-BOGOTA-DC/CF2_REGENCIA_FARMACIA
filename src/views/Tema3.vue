@@ -85,8 +85,7 @@
     .row.justify-content-center
       .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 6.
-          span Transformación del dato en conocimiento
+          p.mb-0 #[b Figura 6]. Transformación del dato en conocimiento
         figure
           img.mb-4(
             src='@/assets/curso/tema3/img4.svg',
@@ -107,12 +106,12 @@
           )
       .col-lg-8
         p.mb-0(data-aos="fade-left") El Ministerio de Salud y Protección Social, creó el Sistema Integrado de Información de la Protección Social - SISPRO donde los ciudadanos pueden obtener información oportuna, suficiente y estandarizada, para la toma de decisiones del Sector Salud y Protección Social. SISPRO está conformado por bases de datos y sistemas de información del sector sobre oferta y demanda de servicios de salud, calidad de los servicios, aseguramiento, financiamiento, y promoción social. Dentro de este portal, se encuentra disponible una serie de catálogos que le permiten a las entidades adscritas al Sistema General de Seguridad Social en Salud y a la ciudadanía, obtener información consolidada de los diversos repositorios de datos que posee el Ministerio. También se cuenta con la #[strong Plataforma de transporte de Información - PISIS] para el intercambio de información entre los diversos actores del sistema.
-    .row.justify-content-center.centro-fondo--arriba.mb-5
-      .col-lg-12.ps-5.pe-5
+    .row.justify-content-center.centro-fondo--arriba
+      .col-lg-12.px-5
         separador
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           .h2 3.3 Sistemas de información en salud
-        .row.justify-content-center.mb-5
+        .row.justify-content-center
           .col-lg-11
             .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5(data-aos="flip-down")
               .row.m-0.align-items-center.justify-content-between

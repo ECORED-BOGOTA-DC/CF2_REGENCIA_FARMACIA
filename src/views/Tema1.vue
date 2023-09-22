@@ -7,7 +7,7 @@
         span 1
       h1 Sistema General de Seguridad Social en Salud - SGSSS
     .row.mb-5.justify-content-center.fondo-esquina.pt-5
-      .col-lg-11(data-aos="flip-down")
+      .col-lg-11(data-aos="fade-right")
         .tarjeta.color-secundario.p-4.p-md-5(
           style='background: linear-gradient(0deg, #e3f0f7, #ebe6fb)'
         )
@@ -22,12 +22,14 @@
               .titulo-segundo.color-acento-contenido.mb-4
                 h3 Sistema de Salud Colombiano
               p.mb-4 La siguiente infografía presenta cómo era el sistema de salud antes de la Ley 100 de 1993, y cómo llegó a constituirse en un modelo para contribuir y apoyar la gestión, brindando protección a toda la población.
+              .titulo-sexto.color-acento-contenido.mb-4
+                p.mb-0 #[b Figura 1]. Introducción SGSSS
               a.boton.color-acento-botones(
                 :href='obtenerLink("/downloads/sistema-salud-colombiano.pdf")',
                 target='_blank',
                 type='application/pdf'
               )
-                span(style='color: #12263f') Descargar
+                span(style='color: #12263f') Sistema de salud colombiano
                 i.fas.fa-file-download(style='color: #12263f')
     p.mb-5(data-aos="fade-left") Tenga en cuenta, aplicar el principio de solidaridad con los aportes estatales para subsidiar los servicios de las poblaciones más vulnerables, reorganizar los prestadores de servicios de salud para integrar un sistema de salud único, con la participación del sector privado en la prestación de servicios de salud, permite generar una sana competencia para mejorar la visión del individuo y de su entorno. Es primordial la práctica de prevención de enfermedades y mejorar el cuidado personal. La Declaración de Alma-Ata, la atención primaria en salud, fue destacada como una acción urgente por parte de todos los gobiernos y de todos los profesionales de la salud, para proteger y promover la salud en todo el mundo.
     p.mb-4(data-aos="fade-right") Solo hasta 1993, con la Ley 100, se concibió la Seguridad Social Integral como:
@@ -45,7 +47,7 @@
             alt='Imágen decorativa',
             style='width: 274px'
           )
-    .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
+    .cajon.color-secundario.p-4.mb-5(data-aos="fade-down")
       p.mb-0 El sistema general de seguridad social, en el sector salud, como reza en el Título 2 de la Ley No. 100 de 1993, ha evolucionado desde sus inicios, hasta la actualidad, de acuerdo con su desarrollo y su necesidad de aseguramiento.
     .row.justify-content-center(style='margin-bottom: 65px')
       .col-lg-11
@@ -78,7 +80,7 @@
         #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           .h2 1.1 Principios del Sistema General de Seguridad Social en Salud
         p.mb-4(data-aos="fade-left") Los principios son los cimientos que sostienen el sistema, sin los cuales perdería identidad y razón de ser y, por lo tanto, se consideran la base de la Seguridad Social en Salud. Los tres primeros principios apalancan el Sistema General de Seguridad Social Integral y con la modificación del artículo 153 de la Ley 100 de 1993, se adicionan los otros tres. Estos principios son:
-    TabsC.color-secundario.mb-5
+    TabsC.color-secundario.mb-5(data-aos="fade-right")
       .py-3.py-md-5(titulo='Universalidad')
         .row(style='justify-content: center')
           .col-md-6.mb-4.mb-md-0.align-self-center
@@ -153,9 +155,9 @@
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-1/img7.png',
             alt='Imágen decorativa',
-            style='width: 350px'
+            style='width: 300px'
           )
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         LineaTiempoD.color-secundario
           p.text-medium(numero='1', titulo='Equidad ') Servicios de salud, con una <b>calidad igual</b> para todos los colombianos.
           p.text-medium(numero='2', titulo='Obligatoriedad') Afiliación al S.G.S.S.S. <b>obligatoria</b> para todos los colombianos.
@@ -173,35 +175,32 @@
       .col-lg-12.ps-5.pe-5
         p.mb-4(data-aos="fade-right") La normativa que fortalece y apalanca el S.G.S.S.S, se basa en leyes, decretos y resoluciones que durante 28 años han sido parte de la transformación y desarrollo del sistema, siempre enfocándose en la búsqueda de una mayor cobertura y mejor oportunidad de atención de las necesidades de salud que tenemos todos los colombianos; a continuación, se revisará la línea de tiempo con una parte significativa de la normativa que ha generado un cambio en la historia de todo el sistema de salud.
         p.mb-5 Estas normas son las siguientes:
-        .row.justify-content-center.mb-4
-          .col-lg-10
-            //p.mb-4 #[strong Leyes]
-          .col-lg-6.mb-4.mb-lg-0
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='Ley 100 - 1993') Por la cual se crea el Sistema de Seguridad Social Integral y se dictan otras disposiciones.
               p.text-medium(numero='2', titulo='Ley 1122 – 2007') Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones.
               p.text-medium(numero='3', titulo='Ley 1438 - 2011') Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones.
               p.text-medium(numero='4', titulo='Ley 1751 - 2015') Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones.
               p.text-medium(numero='5', titulo='Decreto 1283 - 1996') Por el cual se reglamenta el funcionamiento del Fondo de Solidaridad y Garantía del Sistema General de Seguridad Social en Salud.
-          .col-lg-4.d-none.d-lg-block
+          .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-1/img8.svg',
                 alt='Imágen decorativa',
-                style='width: 356px'
+                style='width: 300px'
               )
-    .row.mb-5(style='justify-content: space-around')
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.mb-5(style='justify-content: space-around')
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-1/img9.svg',
             alt='Imágen decorativa',
             style='width: 250px'
           )
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         LineaTiempoD.color-secundario
           p.text-medium(numero='6', titulo='Decreto 1013 DE 1998') Por el cual se reglamenta el funcionamiento de la subcuenta de compensación del Fondo de Solidaridad y Garantía, Fosyga, y se deroga parcialmente el Decreto 1283 de 1996.
-
           p.text-medium(numero='7', titulo='Decreto 1011 – 2006') Por el cual se establece el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud del Sistema General de Seguridad Social en Salud.
           p.text-medium(numero='8', titulo='Decreto 780 - 2016') Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social.
           p.text-medium(numero='9', titulo='Decreto 064 - 2020') Por la cual se modifican los artículos 2.1.3.11, 2.1.3.13, 2.1.5.1, 2.1.7.7, 2.1.7.8 y 2.1.3.17 y se adicionan los artículos 2.1.5.4 y 2.1.5.5 del Decreto 780 de 2016, en relación con los afiliados al régimen subsidiado, la afiliación de oficio y se dictan otras disposiciones.
@@ -209,7 +208,7 @@
           p.text-medium(numero='11', titulo='Resolución 1448 – 2006') Por la cual se definen las Condiciones de Habilitación para las instituciones que prestan servicios de salud bajo la modalidad de Telemedicina.
           p.text-medium(numero='12', titulo='Resolución 4505 – 2012') Establece el reporte relacionado con el registro de actividades de Protección Específica, Detección Temprana y la aplicación de Guías de Atención Integral para las enfermedades de interés en salud pública, de obligatorio cumplimiento, las cuales estarán integradas al Sistema Integral de Información de la Protección Social (SISPRO)
     .row.align-items-center.justify-content-center
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         LineaTiempoD.color-secundario
           p.text-medium(numero='13', titulo='Resolución 429 – 2016') Por medio de la cual se adopta la Política de Atención Integral en Salud.
           p.text-medium(numero='14', titulo='Resolución 4622 – 2016') Por la cual se establece el reporte de los datos de afiliación al Sistema General de Seguridad Social en Salud, a planes voluntarios, Regímenes Especial y de Excepción, y de las personas privadas de la libertad, bajo la custodia y vigilancia del INPEC.
@@ -218,7 +217,7 @@
           p.text-medium(numero='17', titulo='Resolución 768 - 2018') Por la cual se adoptan las reglas y condiciones generales para la operación del Sistema de Afiliación Transaccional – SAT.
           p.text-medium(numero='18', titulo='Resolución 3100 – 2019') Por la cual se definen procedimientos y condiciones de inscripción de los prestadores de servicios de salud y de habilitación de los servicios de salud y se adopta el manual de inscripción de Prestadores y Habilitación de servicios de salud, Ministerio de Salud y Protección Social.
           p.text-medium(numero='19', titulo='Resolución 2626 - 2019') Por la cual se modifica la Política de Atención Integral en Salud – PAIS y se adopta el Modelo de Acción Integral Territorial – MAITE.
-      .col-lg-4 
+      .col-lg-4(data-aos="fade-left")
         figure
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-1/img10.svg',
@@ -282,9 +281,8 @@
                     b-none y los entes territoriales (secretarías departamentales y municipales de salud).
     p.mb-5(data-aos="fade-right") De forma gráfica, se puede observar de la siguiente manera:
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 2.
-      span Actores del SGSSS
-    figure
+      p.mb-0 #[b Figura 2]. Actores del SGSSS
+    figure(data-aos="fade-right")
       img.mx-auto(
         src='@/assets/curso/tema1/tema1-3/img2.svg',
         alt='Muestra dirección del SGSSS, identificando los principales actores en sus 4 fases:<br>1. Dirección ejercido por el ministerio de salud y protección social.<br>2. Aseguramiento donde esta EPS y ADRES.<br>3. Prestación de servicios de salud, se encuentran las IPS privadas y ESE  publicas<br>4. Vigilancia y control ejercido por la superintendencia nacional de salud, instituto nacional de salud, INVIMA y entes territoriales.')
@@ -293,19 +291,19 @@
       .h2 1.4 Aseguramiento
     p.mb-4 La Ley 1122 de 2007 define el aseguramiento como:
     .row.justify-content-center.mb-5
-      .col-lg-9
+      .col-lg-9(data-aos="fade-down")
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             h3.mb-4(style='font-size: 20px; font-weight: bold') La administración del riesgo financiero, la gestión del riesgo en salud, la articulación de los servicios, que garantice el acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la representación del afiliado ante el prestador y los demás actores sin perjuicio de la autonomía del usuario.
             i.fas.fa-quote-right.d-flex.justify-content-end
     .row.justify-content-center.mb-4
-      .col-lg-8
-        p.mb-4(data-aos="fade-right") Por lo anterior, el aseguramiento es la estrategia del Sistema General de Seguridad Social en Salud (SGSSS) para que la población en general tenga acceso a las instituciones prestadoras de servicios de salud, públicas y privadas, las cuales incluyen el Plan Obligatorio de Salud POS y el Plan de Atención Básica PAB.
-        .cajon.color-secundario.p-4.mb-4(data-aos="flip-down")
+      .col-lg-8(data-aos="fade-right")
+        p.mb-4 Por lo anterior, el aseguramiento es la estrategia del Sistema General de Seguridad Social en Salud (SGSSS) para que la población en general tenga acceso a las instituciones prestadoras de servicios de salud, públicas y privadas, las cuales incluyen el Plan Obligatorio de Salud POS y el Plan de Atención Básica PAB.
+        .cajon.color-secundario.p-4.mb-4
           p.mb-0 #[strong Existen dos tipos de aseguramiento:] las Entidades Promotoras de Salud, E.P.S. y las Administradoras de Riesgos Laborales, ARL. Profundicemos en cada una de ellas.
-        p.mb-4(data-aos="fade-right") La Entidad Promotora de Salud E.P.S., es la encargada de organizar y garantizar la prestación de los servicios del Plan Obligatorio de Salud; además, es responsable de la gestión de riesgos derivados de la enfermedad general y no ocupacional.
-      .col-lg-4
+        p.mb-4 La Entidad Promotora de Salud E.P.S., es la encargada de organizar y garantizar la prestación de los servicios del Plan Obligatorio de Salud; además, es responsable de la gestión de riesgos derivados de la enfermedad general y no ocupacional.
+      .col-lg-4(data-aos="fade-left")
         figure.mb-4
           img.mx-auto(
             src='@/assets/curso/tema1/tema1-4/img1.png',
@@ -313,7 +311,7 @@
             style="width: 350px"
           )
     p.mb-5(data-aos="fade-left") El aseguramiento se realiza a través de dos grandes regímenes:
-    .tarjeta--container.row.mb-4
+    .tarjeta--container.row.mb-4(data-aos="fade-right")
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center(style='margin-bottom:40px;')
           .col-4
@@ -348,16 +346,16 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.5 Deberes y derechos en salud
     .row.justify-content-center
-      .col-lg-9.align-self-center
-        p.mb-4(data-aos="fade-right") La nueva carta de derechos y deberes para el usuario del Sistema General de Seguridad Social en Salud, surge de la sentencia T-760 de 2008, luego que la Corte Constitucional estableciera la iniciativa como obligación.
-        .cajon.color-secundario.p-4.mb-0.mb-4(data-aos="flip-down")
+      .col-lg-9.align-self-center(data-aos="fade-right")
+        p.mb-4 La nueva carta de derechos y deberes para el usuario del Sistema General de Seguridad Social en Salud, surge de la sentencia T-760 de 2008, luego que la Corte Constitucional estableciera la iniciativa como obligación.
+        .cajon.color-secundario.p-4.mb-0.mb-4
           p.mb-4 La Superintendencia Nacional de Salud recordó que las entidades del sistema de salud deben brindar a las personas, la información necesaria para acceder a los servicios de salud, con libertad y autonomía.
         a.anexo(:href="obtenerLink('/downloads/DerechosyDeberes.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Información correspondiente a los derechos y deberes de las personas relacionados con el sistema de salud.
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/tema1-5/img1.svg', alt='Imágen decorativa', style='width:336px').mx-auto
     separador
@@ -365,37 +363,37 @@
       .h2 1.6 Afiliación al SGSSS
     p.mb-0(data-aos="fade-right") ¿Sabías que la afiliación al Sistema General de Seguridad Social en Salud, es un acto que se realiza una sola vez? Por medio de ella se adquieren los derechos y obligaciones que del mismo se derivan.
     .row.justify-content-center.mb-2
-      .col-lg-3
+      .col-lg-3(data-aos="fade-right")
         figure.mb-2
           img(src='@/assets/curso/tema1/tema1-6/img1.svg', alt='Imágen decorativa', style='width:255px').mx-auto
-      .col-lg-8.align-self-center
+      .col-lg-8.align-self-center(data-aos="fade-left")
         p.mb-4 Se efectúa con:
         ul.lista-ul.mb-5.ms-4.fa-ul2
-          li(data-aos="fade-up")
+          li
             i.fas.fa-atom
             | El registro en el Sistema de Afiliación Transaccional.
-          li(data-aos="fade-up")
+          li
             i.fas.fa-atom
             | La inscripción a una sola Entidad Promotora de Salud - EPS o Entidad Obligada a Compensar – EOC.
         p.mb-2 Mediante la suscripción del formulario físico o electrónico que adopte el Ministerio de Salud y Protección Social.
     .row.justify-content-center.mb-4
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         p.mb-4 Tenga en cuenta que la afiliación al Sistema General de Seguridad Social en Salud, implica:
         ul.lista-ul.mb-4.ms-5.fa-ul2
-          li(data-aos="fade-up")
+          li.d-flex
             i.fas.fa-atom
             | La declaración de la veracidad de los datos informados y del cumplimiento de las condiciones para pertenecer al régimen contributivo o al régimen subsidiado. 
-          li(data-aos="fade-up") 
+          li.d-flex
             i.fas.fa-atom
             | La aceptación de las condiciones propias del régimen contributivo o subsidiado y aquellas relacionadas con las cuotas moderadoras y copagos para la prestación de los servicios, de conformidad con las normas vigentes, las cuales deberán ser informadas al afiliado.
-        .cajon.color-secundario.p-4.mb-0.mb-3(data-aos="flip-down")
+        .cajon.color-secundario.p-4.mb-0.mb-3
           | En el Sistema General de Seguridad Social en Salud no habrá afiliaciones retroactivas (Artículo 2.1.3.1 del Decreto 780 del 2016).
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure.mb-2
           img(src='@/assets/curso/tema1/tema1-6/img2.svg', alt='Imágen decorativa', style='width: 313px;').mx-auto
     p.mb-5(data-aos="fade-right") Los siguientes conceptos se deben tener siempre presentes en las afiliaciones:
     .row.justify-content-center
-      .col-lg-11
+      .col-lg-11(data-aos="fade-down")
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Afiliaciones colectivas",  style='justify-content: space-around')
             .col-md-3.mt-4
@@ -430,7 +428,7 @@
       .h2 1.7 Prestación del servicio y planes de beneficios
     p.mb-5 La prestación del servicio de salud es realizada por:
     .row.justify-content-center
-      .col-lg-11
+      .col-lg-11(data-aos="fade-right")
         .tarjeta--container.row.mb-5
           .col-md.tarjeta.color-primario.p-5
             .row.justify-content-center(style='margin-bottom:40px;')
@@ -448,7 +446,7 @@
             p.text-center Instituciones Prestadoras de Servicios<br> de Salud Indígena
     p.mb-4(data-aos="fade-right") Estas instituciones están compuestas por los hospitales, clínicas, laboratorios, centros de apoyo y diagnóstico, consultorios, transporte especializado de pacientes, centros de rehabilitación, entre otras. Pueden ser públicas o privadas y suministran el servicio de salud en los diferentes niveles de complejidad y de atención, según el tipo de servicios que habiliten y acreditan, es decir, de acuerdo con la capacidad instalada, tecnología y talento humano en salud.
     p.mb-4(data-aos="fade-right") Estos niveles de complejidad se clasifican en:
-    TabsC.color-secundario.mb-5
+    TabsC.color-secundario.mb-5(data-aos="fade-left")
       .p-4(titulo='Baja complejidad')
         .row(style='justify-content: space-around')
           .col-lg-5.mb-4.mb-lg-0.align-self-center
@@ -490,22 +488,20 @@
     p.mb-4(data-aos="fade-right") Es el conjunto articulado de prestadores de servicios de salud, o de organizaciones funcionales de servicios de salud, públicos, privados o mixtos, ubicados en un ámbito territorial definido, de acuerdo con las condiciones de operación del MIAS (actualmente MAITE). El objetivo de las RIPSS, es el de garantizar el acceso efectivo a los servicios de salud, y la atención oportuna, continua, integral y resolutiva.
     p.mb-5(data-aos="fade-left") La siguiente imagen nos presenta, de forma gráfica, qué es el RIPSS.
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 3.
-      span Redes Integrales de Prestadores de Servicios de Salud
-    figure.mb-5
+      p.mb-0 #[b Figura 3]. Redes Integrales de Prestadores de Servicios de Salud
+    figure.mb-5(data-aos="fade-left")
       img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img6.svg', alt='Muestra redes integrales de prestadores de servicios de salud compuesta por servicios, prestadores y organizaciones funcionales.')
       figcaption Fuente: Tomada de MINSALUD
-    .row.justify-content-center.centro-fondo--arriba.mb-5.px-5
+    .row.justify-content-center.centro-fondo--arriba.mb-5.px-5(data-aos="fade-right")
       .col-lg-11
         .h3.mb-4(data-aos="fade-right") Red de prestación de servicios
         p.mb-4(data-aos="fade-left") La siguiente imagen nos presenta qué es la red de prestación de servicios.
         .row(style='justify-content:center')
           .col-lg-4
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-              h5 Figura 4.
-              span Red de prestación de servicios
-            figure.mb-5
-              img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='Imágen decorativa', style='width:465px')
+              p.mb-0 #[b Figura 4]. Red de prestación de servicios
+            figure.mb-4
+              img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='Imágen decorativa', style='width:400px')
           .col-lg-7.mb-5
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='¿Qué es?') Es un conjunto articulado de prestadores de servicios de salud, ubicados en el mismo espacio geográfico, que trabajan de manera organizada y coordinada, en un proceso de integralidad con la entidad responsable de pago. 
@@ -534,8 +530,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 5.
-          span Ejemplo sistema de referencia y contrareferencia
+          p.mb-0 #[b Figura 5]. Ejemplo sistema de referencia y contrareferencia
         figure
           img(src='@/assets/curso/tema1/tema1-7/img8.svg' alt='Muestra ejemplo del sistema de referencia y contrareferencia, apoyo especializado por medico general   en referencia y por IPS  mayor en contrareferencia', style='').mx-auto
     p.mb-4 En la red de prestación de servicios, existen los siguientes tipos de atención:
@@ -582,10 +577,10 @@
     .row.justify-content-center.mb-5
       .col-lg-12
         .row.align-items-center(style='justify-content:space-between')
-            .col-lg-4
+            .col-lg-4(data-aos="fade-right")
               figure.mb-4
-                img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img12.png', alt='Imágen decorativa', style='width:350px').mx-auto
-            .col-lg-7
+                img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img12.png', alt='Imágen decorativa', style='width:250px').mx-auto
+            .col-lg-7(data-aos="fade-left")
               LineaTiempoD.color-secundario
                 p.text-medium(numero='1', titulo='Plan atención básica') Denominado, posteriormente, Plan Nacional de Salud Pública, configurado por acciones gratuitas y primordialmente colectivas, de promoción de la salud, prevención de la enfermedad y, en algunos casos, acciones individuales de diagnóstico y tratamiento de algunas enfermedades de interés en salud pública, provistas por la red pública de prestadores y administrado por las entidades territoriales.
                 p.text-medium(numero='2', titulo='Plan obligatorio de salud') Compuesto, principalmente, por acciones individuales de prevención primaria, secundaria y terciaria. Actualmente unificado el POS para el régimen contributivo y el régimen subsidiado. Están a cargo de las EPS.
@@ -593,13 +588,13 @@
                 p.text-medium(numero='4', titulo='Seguro obligatorio de accidentes de tránsito – SOAT') Cubre eventos de origen en accidentes de tránsito, hasta un monto determinado y de forma complementaria al POS. Provistos por compañías de seguros autorizadas hasta un monto definido, después del cual son financiados por la subcuenta específica de atención de Eventos Catastróficos y Accidentes de tránsito –ECAT. 
                 p.text-medium(numero='5', titulo='Cobertura de riesgos laborales') Cubre todo evento o enfermedad de origen ocupacional sin los límites del POS. Son garantizados por las Administradoras de Riesgos Laborales-ARL.
                 p.text-medium(numero='6', titulo='Atención de eventos catastróficos') Cubre eventos definidos como catastróficos (inundaciones, terremotos, etc.) con recursos específicos para tal fin y de forma complementaria al POS. Son financiados por el Fosyga mediante la subcuenta ECAT.
-    .cajon.color-secundario.p-4(data-aos="flip-down")
+    .cajon.color-secundario.p-4(data-aos="fade-down")
       p.mb-0 También existen los planes de cobertura, provistos a la población víctima de desplazamiento forzado y la población interna en establecimientos carcelarios que, usualmente, son suplementarios al POS. Aquí también se deben considerar las acciones de atención con tecnología en salud no cubierta por el POS y la atención de personas no afiliadas a un régimen de seguridad social en salud, que son provistas en la red pública, a cargo de las entidades territoriales (distritos, departamentos y municipios) y financiadas con los denominados recursos de subsidio a la demanda. Actualmente se le conoce como Plan de Intervenciones Colectivas -PIC.
     separador
-    #t_1_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_8.titulo-segundo.color-acento-contenido
       .h2 1.8 Inspección, Vigilancia y Control - IVC
     p.mb-4(data-aos="fade-up") Las organizaciones que componen el Sistema de Seguridad Social en Salud, como todas las Instituciones del Estado, están sujetas a tres tipos de control:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-auto.mb-4
         .tarjeta.tarjeta-container.tarjeta-purpura
           .tarjetaContent
@@ -628,7 +623,7 @@
             .tarjetaTxt
               p.mb-0 Proviene de los ciudadanos, a través de las veedurías ciudadanas y las asociaciones de usuarios.
     p.mb-5(data-aos="fade-up") Los aspectos que han sido sujetos de Inspección, Vigilancia y Control, en todos los procesos y procedimientos de los diferentes actores del SGSSS, entre otros, son:
-    .row.mb-5(style='justify-content:center')
+    .row.mb-5(style='justify-content:center')(data-aos="fade-left")
       .col-lg-3.col-md-3.mx-3.mb-4.px-4(style='background-color: #E6F7FE; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px')
         figure.mb-4.mt-4
           img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon4.svg", alt="Imágen decorativa", style="width:116px;")
@@ -642,7 +637,7 @@
           img.mx-auto(src="@/assets/curso/tema1/tema1-8/icon6.svg", alt="Imágen decorativa", style="width:116px;")
         h5.mb-4.text-center Deficiencias en la calidad y oportunidad del servicio
     p.mb-5(data-aos="fade-up") Y los entes responsables de realizar Inspección Vigilancia y Control, de todos los actores del Sistema General de Seguridad Social en Salud S.G.S.S.S, son:
-    TabsB.color-secundario
+    TabsB.color-secundario(data-aos="fade-left")
       .p-4(titulo="Superintendencia Nacional de Salud" :icono="require('@/assets/curso/tema1/tema1-8/icon7.svg')")
         .row(style='justify-content: space-around; margin-bottom:80px; margin-top:60px;')
           .col-lg-7.mb-4.mb-lg-0
@@ -681,32 +676,32 @@
         #t_1_9.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           .h2 1.9 Financiación del SGSSS
         .row.justify-content-center.mb-5
-          .col-lg-3.mb-2
+          .col-lg-3.mb-2(data-aos="fade-right")
             figure
               img.mx-auto(src='@/assets/curso/tema1/tema1-9/img1.svg', alt='Imágen decorativa', style='width:280px')
-          .col-lg-9
-            p.mb-4(data-aos="fade-left") Para la atención en Salud, de todo lo relacionado con enfermedad general y con riesgos no laborales, el gobierno destina recursos para la salud, administrados por la ADRES, Administradora de los Recursos del Sistema General de Seguridad Social en Salud, creada a partir del Decreto 1429 del 1 de septiembre de 2016, por el Ministerio de Salud.
+          .col-lg-9(data-aos="fade-left")
+            p.mb-4 Para la atención en Salud, de todo lo relacionado con enfermedad general y con riesgos no laborales, el gobierno destina recursos para la salud, administrados por la ADRES, Administradora de los Recursos del Sistema General de Seguridad Social en Salud, creada a partir del Decreto 1429 del 1 de septiembre de 2016, por el Ministerio de Salud.
             .cajon.color-secundario.p-4(data-aos="flip-down")
               p.mb-0 Su fin es el de garantizar el apropiado flujo de los recursos y los controles pertinentes; entra en reemplazo del antiguo Fondo de Solidaridad y Garantía (FOSYGA), a manejar los recursos de las siguientes subcuentas:
-        .row.justify-content-center
-          .col-lg-7.mb-4
+        .row.justify-content-center.align-items-center
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='Subcuenta ECAT') Cubre el costo de las atenciones a las víctimas de accidentes de tránsito, a través del SOAT, y la atención a las víctimas de eventos catastróficos y terroristas. 
               p.text-medium(numero='2', titulo='Subcuenta de compensación') Cobra el valor del descuento de las cotizaciones recaudadas por las EPS del régimen contributivo y demás entidades obligadas a compensar, derivadas de los descuentos en salud y pensión, que se realizan a los empleados y empleadores. 
               p.text-medium(numero='3', titulo='Subcuenta solidaridad') Recauda los recursos aportados por todos los actores del sistema, con destino al régimen subsidiado.
               p.text-medium(numero='4', titulo='Subcuenta promoción') Financia las actividades de educación, información y fomento de la salud y de prevención de la enfermedad, las cuales se encuentran en el Plan de Atención Básica – PAB.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
-              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img2.svg', alt='Imágen decorativa', style='width:392px')
+              img.mx-auto(src='@/assets/curso/tema1/tema1-9/img2.svg', alt='Imágen decorativa', style='width:300px')
     p.mb-4.mt-5(data-aos="fade-right") En los regímenes exceptuados del sistema, como son las Fuerzas Armadas, Fondo Nacional del Magisterio, Ecopetrol y Universidades públicas, la financiación es responsabilidad de los fondos específicos de cada régimen exceptuado; estos, a la vez, deben aportar recursos para la subcuenta de solidaridad con que financia el Régimen Subsidiado del Sistema General. Igualmente, es importante aclarar que, parte de dinero de la subcuenta de solidaridad, recaudada por ADRES, son recursos que provienen de las empresas de medicina prepagada o planes complementarios de salud; todo lo anterior, ratifica el principio de solidaridad “mutua ayuda entre las personas, las generaciones, los sectores económicos, las regiones y las comunidades, bajo el principio del más fuerte hacia el más débil” del SGSSS.
     p.mb-5(data-aos="fade-up") En este punto, es importante tener presente qué es una cuota:
-    TabsC.color-secundario
+    TabsC.color-secundario(data-aos="fade-right")
       .p-4(titulo='Copagos')
         .row(style='justify-content: center')
           .col-lg-6.mb-4.mb-lg-0.align-self-center
             h2 Copagos
             p Aportes en dinero que deben realizar únicamente los beneficiarios, de acuerdo con el Ingreso Base de Cotización del afiliado cotizante, los cuales corresponden a una parte del valor del servicio prestado y tienen como finalidad, ayudar a financiar el Sistema. Los copagos tienen un tope máximo por la atención de una enfermedad, en el mismo año calendario y un tope máximo acumulado, por atención de distintas enfermedades.
-          .col-lg-5.mt-4
+          .col-lg-5
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-9/img3.svg',
@@ -714,11 +709,11 @@
                 style='width: 328px'
               )
       .p-4(titulo='Cuotas moderadas')
-        .row(style='justify-content: center')
+        .row.align-items-center(style='justify-content: center')
           .col-lg-6.mb-4.mb-lg-0.align-self-center
             h2 Cuotas moderadas
             p Aporte en dinero que debe ser pagado por todos los afiliados (cotizantes y beneficiarios), cuando se asiste al médico general, al especialista, al odontólogo, o a consulta con un profesional paramédico. También, cuando se reciben medicamentos, al tomarse exámenes de laboratorio o radiografías de tratamientos ambulatorios. Las cuotas moderadoras tienen por objeto regular la utilización del servicio de salud y estimular su buen uso. Su valor varía de acuerdo con el ingreso base de cotización del trabajador dependiente o independiente. La atención de urgencias NO cobra cuota moderadora, a no ser que el profesional de la salud determine que el servicio solicitado no era por una verdadera urgencia. NO se cobra cuando el usuario forma parte de un programa especial de manejo de enfermedades específicas, en el cual se debe seguir un plan rutinario de actividades de control, como por ejemplo, la atención de la hipertensión arterial o de la diabetes.
-          .col-lg-5.mt-5
+          .col-lg-5
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-9/img4.svg',
@@ -726,11 +721,11 @@
                 style='width: 230px'
               )
       .p-4(titulo='Cuotas de recuperación')
-        .row(style='justify-content: center')
+        .row.align-items-center(style='justify-content: center')
           .col-lg-6.mb-4.mb-lg-0.align-self-center
             h2 Cuotas de recuperación
             p Aportes en dinero que debe pagar el usuario que necesite atención médica y requiera una Tecnología en Salud no incluida en el Plan de Beneficios. La población indígena y la indigente NO pagarán cuotas de recuperación. Las instituciones prestadoras de servicios de Salud, son las responsables de recaudar las cuotas de recuperación, cuando se preste una tecnología en Salud, no Incluida en el Plan de Beneficios. El valor a cancelar por cuota de recuperación, depende del valor de la Tecnología en Salud prestada, y el Nivel del Sisbén al que pertenezca el usuario. Los afiliados con nivel del SISBEN 1, pagarán el 5 % del valor de los servicios, sin exceder el equivalente a un salario mínimo legal vigente por la atención en un mismo evento; los afiliados con nivel del SISBÉN 2, pagarán el 10 % del valor de los servicios, sin exceder el equivalente a dos salarios mínimos mensuales legales vigentes (artículo 2.4.20 del Decreto 780 del 2016).
-          .col-lg-5.mt-5
+          .col-lg-5
             figure
               img.mx-auto(
                 src='@/assets/curso/tema1/tema1-9/img5.svg',
