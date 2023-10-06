@@ -167,9 +167,9 @@ export default {
   referencias: [
     {
       referencia:
-        'Decreto 780 del 2016 “Por medio del cual se expide el decreto único reglamentario del sector Salud. Ministerio de Salud y Protección Social. Mayo 6 de 2016. Departamento Nacional de Planeación. (s.f.). Salud Pública.',
+        'Decreto 780 del 2016 “Por medio del cual se expide el decreto único reglamentario del sector Salud. Ministerio de Salud y Protección Social. Mayo 6 de 2016. Departamento Nacional de Planeación. (s.f.). Salud Pública. ',
       link:
-        'https://www.dnp.gov.co/programas/desarrollo-social/subdireccion-de-salud/Paginas/salud-publica.aspx',
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
     {
       referencia:
@@ -359,7 +359,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -399,7 +399,7 @@ export default {
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo:
-            'Diseñadora instruccional – Revisora metodológica y pedagógica - 2021',
+            'Diseñadora instruccional - Revisora metodológica y pedagógica - 2021',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },

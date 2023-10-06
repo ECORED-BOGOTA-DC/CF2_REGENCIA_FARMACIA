@@ -85,7 +85,7 @@
     .row.justify-content-center
       .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          p.mb-0 #[b Figura 6]. Transformación del dato en conocimiento
+          p.mb-0 #[b Figura 4]. Transformación del dato en conocimiento
         figure
           img.mb-4(
             src='@/assets/curso/tema3/img4.svg',

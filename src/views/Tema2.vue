@@ -25,10 +25,22 @@
                 src='@/assets/curso/tema1/img5.png',
                 alt='Imágen decorativa'
               )
+    .row.justify-content-center
+      .col-md-8.col-lg-9.p-4.bg-c3
+        p.text-white.text-center.mb-0.fs-5 #[b El Sistema General de Seguridad Social en Salud, en cuanto a Salud pública se refiere, prioriza sus objetivos, en:]
     .row.justify-content-center.mb-5
-      .col-lg-10
-        figure(data-aos="fade-right")
-          img.mx-auto(src='@/assets/curso/tema2/img2.svg',alt="Imágen decorativa")
+      .col-md-8.col-lg-3.p-4.bg-c1
+        figure.mb-3
+          img(src='@/assets/curso/tema1/img5.svg', style="width:100px", alt='').m-auto
+        p.text-center.mb-0 #[b Fortalecer la capacidad institucional de planificación y gestión.]
+      .col-md-8.col-lg-3.p-4.bg-c2
+        figure.mb-3
+          img(src='@/assets/curso/tema1/img6.svg', style="width:100px", alt='').m-auto
+        p.text-center.mb-0 #[b Desarrollar las características y condiciones del talento humano en salud.]
+      .col-md-8.col-lg-3.p-4.bg-c1
+        figure.mb-3
+          img(src='@/assets/curso/tema1/img7.svg', style="width:100px", alt='').m-auto
+        p.text-center.mb-0 #[b Elaborar procesos permanentes de investigación, dirigida a mejorar las condiciones de salud individuales y colectivas.]
     .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
       p.mb-0 El Ministerio de Salud y Protección Social, como ente rector del Sistema General de Seguridad Social en Salud – SGSSS, y del sector salud en general, tiene la función de proveer, de manera integral, las acciones de salud individuales y colectivas, con la participación responsable de todos los sectores de la sociedad, para mejorar las condiciones de salud de la población colombiana.
     TabsC.color-secundario(data-aos="fade-left")

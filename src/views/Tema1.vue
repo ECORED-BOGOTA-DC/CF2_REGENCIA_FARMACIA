@@ -22,8 +22,6 @@
               .titulo-segundo.color-acento-contenido.mb-4
                 h3 Sistema de Salud Colombiano
               p.mb-4 La siguiente infografía presenta cómo era el sistema de salud antes de la Ley 100 de 1993, y cómo llegó a constituirse en un modelo para contribuir y apoyar la gestión, brindando protección a toda la población.
-              .titulo-sexto.color-acento-contenido.mb-4
-                p.mb-0 #[b Figura 1]. Introducción SGSSS
               a.boton.color-acento-botones(
                 :href='obtenerLink("/downloads/sistema-salud-colombiano.pdf")',
                 target='_blank',
@@ -49,13 +47,30 @@
           )
     .cajon.color-secundario.p-4.mb-5(data-aos="fade-down")
       p.mb-0 El sistema general de seguridad social, en el sector salud, como reza en el Título 2 de la Ley No. 100 de 1993, ha evolucionado desde sus inicios, hasta la actualidad, de acuerdo con su desarrollo y su necesidad de aseguramiento.
-    .row.justify-content-center(style='margin-bottom: 65px')
-      .col-lg-11
-        figure
-          img.mx-auto(
-            src='@/assets/curso/tema1/img3.svg',
-            alt='Imágen decorativa'
-          )
+    .row.justify-content-center
+      .col-md-6.col-lg-12.p-4.bg-c3
+        p.text-white.text-center.mb-0.fs-5 #[b ¿Quiénes forman parte del Sistema General de Seguridad Social en Salud?]
+    .row.mb-5
+      .col-md-6.col-lg-3.p-4.bg-c1
+        figure.mb-3
+          img(src='@/assets/curso/tema1/img4.svg', style="width:100px", alt='').m-auto
+        p.text-center.mb-4 #[b Ministerio de salud]
+        p Coordina, dirige y controla el cumplimiento de las Empresas Promotoras de Salud (EPS).
+      .col-md-6.col-lg-3.p-4.bg-c2
+        figure.mb-3
+          img(src='@/assets/curso/tema1/img5.svg', style="width:100px", alt='').m-auto
+        p.text-center.mb-4 #[b Empresas promotoras de salud (EPS)]
+        p Organismos responsables de vincular, recaudar y pagar los planes de atención básica, para brindar atención médica a los usuarios.
+      .col-md-6.col-lg-3.p-4.bg-c1
+        figure.mb-3
+          img(src='@/assets/curso/tema1/img6.svg', style="width:100px", alt='').m-auto
+        p.text-center.mb-4 #[b Instituciones prestadoras de salud]
+        p Como hospitales, clínicas, laboratorios, centros de apoyo al diagnóstico, empresas de transporte de pacientes y consultorios médicos privados.
+      .col-md-6.col-lg-3.p-4.bg-c2
+        figure.mb-3
+          img(src='@/assets/curso/tema1/img7.svg', style="width:100px", alt='').m-auto
+        p.text-center.mb-4 #[b Organismos encargados de controlar y monitorear los procesos del sistema]
+        p Como la Superintendencia de Salud y los entes territoriales.
     .row.justify-content-center.centro-fondo--arriba
       .col-lg-11
         .row
@@ -179,7 +194,7 @@
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
             LineaTiempoD.color-secundario
               p.text-medium(numero='1', titulo='Ley 100 - 1993') Por la cual se crea el Sistema de Seguridad Social Integral y se dictan otras disposiciones.
-              p.text-medium(numero='2', titulo='Ley 1122 – 2007') Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones.
+              p.text-medium(numero='2', titulo='Ley 1122 - 2007') Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones.
               p.text-medium(numero='3', titulo='Ley 1438 - 2011') Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones.
               p.text-medium(numero='4', titulo='Ley 1751 - 2015') Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones.
               p.text-medium(numero='5', titulo='Decreto 1283 - 1996') Por el cual se reglamenta el funcionamiento del Fondo de Solidaridad y Garantía del Sistema General de Seguridad Social en Salud.
@@ -200,22 +215,22 @@
           )
       .col-lg-6(data-aos="fade-left")
         LineaTiempoD.color-secundario
-          p.text-medium(numero='6', titulo='Decreto 1013 DE 1998') Por el cual se reglamenta el funcionamiento de la subcuenta de compensación del Fondo de Solidaridad y Garantía, Fosyga, y se deroga parcialmente el Decreto 1283 de 1996.
-          p.text-medium(numero='7', titulo='Decreto 1011 – 2006') Por el cual se establece el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud del Sistema General de Seguridad Social en Salud.
+          p.text-medium(numero='6', titulo='Decreto 1013 - 1998') Por el cual se reglamenta el funcionamiento de la subcuenta de compensación del Fondo de Solidaridad y Garantía, Fosyga, y se deroga parcialmente el Decreto 1283 de 1996.
+          p.text-medium(numero='7', titulo='Decreto 1011 - 2006') Por el cual se establece el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud del Sistema General de Seguridad Social en Salud.
           p.text-medium(numero='8', titulo='Decreto 780 - 2016') Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social.
           p.text-medium(numero='9', titulo='Decreto 064 - 2020') Por la cual se modifican los artículos 2.1.3.11, 2.1.3.13, 2.1.5.1, 2.1.7.7, 2.1.7.8 y 2.1.3.17 y se adicionan los artículos 2.1.5.4 y 2.1.5.5 del Decreto 780 de 2016, en relación con los afiliados al régimen subsidiado, la afiliación de oficio y se dictan otras disposiciones.
           p.text-medium(numero='10', titulo='Resolución 3374 - 2000') Por la cual se reglamentan los datos básicos que deben reportar los prestadores de servicios de salud y las entidades administradoras de planes de beneficios sobre los servicios de salud prestados.
-          p.text-medium(numero='11', titulo='Resolución 1448 – 2006') Por la cual se definen las Condiciones de Habilitación para las instituciones que prestan servicios de salud bajo la modalidad de Telemedicina.
-          p.text-medium(numero='12', titulo='Resolución 4505 – 2012') Establece el reporte relacionado con el registro de actividades de Protección Específica, Detección Temprana y la aplicación de Guías de Atención Integral para las enfermedades de interés en salud pública, de obligatorio cumplimiento, las cuales estarán integradas al Sistema Integral de Información de la Protección Social (SISPRO)
+          p.text-medium(numero='11', titulo='Resolución 1448 - 2006') Por la cual se definen las Condiciones de Habilitación para las instituciones que prestan servicios de salud bajo la modalidad de Telemedicina.
+          p.text-medium(numero='12', titulo='Resolución 4505 - 2012') Establece el reporte relacionado con el registro de actividades de Protección Específica, Detección Temprana y la aplicación de Guías de Atención Integral para las enfermedades de interés en salud pública, de obligatorio cumplimiento, las cuales estarán integradas al Sistema Integral de Información de la Protección Social (SISPRO)
     .row.align-items-center.justify-content-center
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         LineaTiempoD.color-secundario
-          p.text-medium(numero='13', titulo='Resolución 429 – 2016') Por medio de la cual se adopta la Política de Atención Integral en Salud.
-          p.text-medium(numero='14', titulo='Resolución 4622 – 2016') Por la cual se establece el reporte de los datos de afiliación al Sistema General de Seguridad Social en Salud, a planes voluntarios, Regímenes Especial y de Excepción, y de las personas privadas de la libertad, bajo la custodia y vigilancia del INPEC.
-          p.text-medium(numero='15', titulo='Resolución 1441 – 2016') Por la cual se establecen los estándares, criterios y procedimientos para la habilitación de las Redes Integrales de Prestadores de Servicios de Salud y se dictan otras disposiciones.
+          p.text-medium(numero='13', titulo='Resolución 429 - 2016') Por medio de la cual se adopta la Política de Atención Integral en Salud.
+          p.text-medium(numero='14', titulo='Resolución 4622 - 2016') Por la cual se establece el reporte de los datos de afiliación al Sistema General de Seguridad Social en Salud, a planes voluntarios, Regímenes Especial y de Excepción, y de las personas privadas de la libertad, bajo la custodia y vigilancia del INPEC.
+          p.text-medium(numero='15', titulo='Resolución 1441 - 2016') Por la cual se establecen los estándares, criterios y procedimientos para la habilitación de las Redes Integrales de Prestadores de Servicios de Salud y se dictan otras disposiciones.
           p.text-medium(numero='16', titulo='Resolución 3202 - 2016') Por la cual se adopta el Manual Metodológico para la elaboración e implementación de las Rutas Integrales de Atención en Salud – RIAS, se adopta un grupo de Rutas Integrales de Atención en Salud, desarrolladas por el Ministerio de Salud y Protección Social dentro de la Política de Atención Integral en Salud – PAIS y se dictan otras disposiciones.
-          p.text-medium(numero='17', titulo='Resolución 768 - 2018') Por la cual se adoptan las reglas y condiciones generales para la operación del Sistema de Afiliación Transaccional – SAT.
-          p.text-medium(numero='18', titulo='Resolución 3100 – 2019') Por la cual se definen procedimientos y condiciones de inscripción de los prestadores de servicios de salud y de habilitación de los servicios de salud y se adopta el manual de inscripción de Prestadores y Habilitación de servicios de salud, Ministerio de Salud y Protección Social.
+          p.text-medium(numero='17', titulo='Resolución 768 - 2018') Por la cual se adoptan las reglas y condiciones generales para la operación del Sistema de Afiliación Transaccional - SAT.
+          p.text-medium(numero='18', titulo='Resolución 3100 - 2019') Por la cual se definen procedimientos y condiciones de inscripción de los prestadores de servicios de salud y de habilitación de los servicios de salud y se adopta el manual de inscripción de Prestadores y Habilitación de servicios de salud, Ministerio de Salud y Protección Social.
           p.text-medium(numero='19', titulo='Resolución 2626 - 2019') Por la cual se modifica la Política de Atención Integral en Salud – PAIS y se adopta el Modelo de Acción Integral Territorial – MAITE.
       .col-lg-4(data-aos="fade-left")
         figure
@@ -281,7 +296,7 @@
                     b-none y los entes territoriales (secretarías departamentales y municipales de salud).
     p.mb-5(data-aos="fade-right") De forma gráfica, se puede observar de la siguiente manera:
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      p.mb-0 #[b Figura 2]. Actores del SGSSS
+      p.mb-0 #[b Figura 1]. Actores del SGSSS
     figure(data-aos="fade-right")
       img.mx-auto(
         src='@/assets/curso/tema1/tema1-3/img2.svg',
@@ -330,7 +345,7 @@
       .col-lg-12.ps-5.pe-5
         p.mb-4(data-aos="fade-right") Las poblaciones especiales, definidas por el Estado como prioritarias, que no se encuentren afiliadas al régimen contributivo o pertenezcan a un régimen especial (Fuerzas Militares, Policía, Magisterio, funcionarios de universidades públicas y Ecopetrol) o de excepción (población en condición de desplazamiento, comunidades indígenas, desmovilizada del conflicto, población infantil abandonada a cargo del ICBF, personas mayores en centros de protección, y ROM o gitanos), serán afiliadas al sistema, a través del Régimen Subsidiado. Igualmente, aquellas personas sin capacidad de pago o que se encuentran en el limbo administrativo, mientras logran ser beneficiarios del Régimen Subsidiado, tendrán derecho a los servicios de salud que prestan las instituciones públicas y aquellas privadas que tengan contrato con el Estado.
         .cajon.color-secundario.p-4.mb-5(data-aos="flip-down")
-          p.mb-0 Las EPS contributivas o subsidiadas, son las responsables de la afiliación, el registro de los afiliados y el recaudo de sus aportes y, a su vez, contratan la prestación de los servicios de salud con las IPS privadas y/o con la Empresas Sociales del Estado.
+          p.mb-0 Las EPS contributivas o subsidiadas, son las responsables de la afiliación, el registro de los afiliados y el recaudo de sus aportes y, a su vez, contratan la prestación de los servicios de salud con las IPS privadas y/o con las Empresas Sociales del Estado.
         p.mb-4(data-aos="fade-left") El segundo tipo de aseguramiento, se refiere a las:
         .row.justify-content-center
           .col-11
@@ -488,18 +503,15 @@
     p.mb-4(data-aos="fade-right") Es el conjunto articulado de prestadores de servicios de salud, o de organizaciones funcionales de servicios de salud, públicos, privados o mixtos, ubicados en un ámbito territorial definido, de acuerdo con las condiciones de operación del MIAS (actualmente MAITE). El objetivo de las RIPSS, es el de garantizar el acceso efectivo a los servicios de salud, y la atención oportuna, continua, integral y resolutiva.
     p.mb-5(data-aos="fade-left") La siguiente imagen nos presenta, de forma gráfica, qué es el RIPSS.
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      p.mb-0 #[b Figura 3]. Redes Integrales de Prestadores de Servicios de Salud
+      p.mb-0 #[b Figura 2]. Redes Integrales de Prestadores de Servicios de Salud
     figure.mb-5(data-aos="fade-left")
       img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img6.svg', alt='Muestra redes integrales de prestadores de servicios de salud compuesta por servicios, prestadores y organizaciones funcionales.')
       figcaption Fuente: Tomada de MINSALUD
     .row.justify-content-center.centro-fondo--arriba.mb-5.px-5(data-aos="fade-right")
       .col-lg-11
         .h3.mb-4(data-aos="fade-right") Red de prestación de servicios
-        p.mb-4(data-aos="fade-left") La siguiente imagen nos presenta qué es la red de prestación de servicios.
         .row(style='justify-content:center')
           .col-lg-4
-            .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-              p.mb-0 #[b Figura 4]. Red de prestación de servicios
             figure.mb-4
               img.mb-1.mx-auto(src='@/assets/curso/tema1/tema1-7/img7.svg', alt='Imágen decorativa', style='width:400px')
           .col-lg-7.mb-5
@@ -530,7 +542,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          p.mb-0 #[b Figura 5]. Ejemplo sistema de referencia y contrareferencia
+          p.mb-0 #[b Figura 3]. Ejemplo sistema de referencia y contrareferencia
         figure
           img(src='@/assets/curso/tema1/tema1-7/img8.svg' alt='Muestra ejemplo del sistema de referencia y contrareferencia, apoyo especializado por medico general   en referencia y por IPS  mayor en contrareferencia', style='').mx-auto
     p.mb-4 En la red de prestación de servicios, existen los siguientes tipos de atención:
